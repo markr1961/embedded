@@ -1,4 +1,4 @@
-ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/ccreHEHg.s 			page 1
+ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/ccffqh4M.s 			page 1
 
 
    1              		.code	16
@@ -18,9 +18,10 @@ ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/ccreHEHg.s 			page 1
   11              		.section	.rodata.str1.4,"aMS",%progbits,1
   12              		.align	2
   13              	.LC0:
-  14 0000 4D454E55 		.ascii	"MENU\000"
+  14 0000 5265666C 		.ascii	"Reflexer\000"
+  14      65786572 
   14      00
-  15 0005 000000   		.text
+  15 0009 000000   		.text
   16              		.align	2
   17              		.global	initApp
   18              		.code 16
@@ -57,10 +58,10 @@ ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/ccreHEHg.s 			page 1
   26:Reflexes.c    ****  * Typedefs and defines
   27:Reflexes.c    ****  *****************************************************************************/
   28:Reflexes.c    **** 
+ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/ccffqh4M.s 			page 2
+
+
   29:Reflexes.c    **** 
-ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/ccreHEHg.s 			page 2
-
-
   30:Reflexes.c    **** /*****************************************************************************
   31:Reflexes.c    ****  * Local variables
   32:Reflexes.c    ****  ****************************************************************************/
@@ -117,15 +118,15 @@ ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/ccreHEHg.s 			page 1
   52 0030 3020     		mov	r0, #48
   53 0032 0121     		mov	r1, #1
   54 0034 FFF7FEFF 		bl	lcdGotoxy
+ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/ccffqh4M.s 			page 3
+
+
   55:Reflexes.c    **** 	  lcdColor(0x6d,0);
-ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/ccreHEHg.s 			page 3
-
-
   55              		.loc 1 55 0
   56 0038 6D20     		mov	r0, #109
   57 003a 0021     		mov	r1, #0
   58 003c FFF7FEFF 		bl	lcdColor
-  56:Reflexes.c    **** 	  lcdPuts("MENU");
+  56:Reflexes.c    **** 	  lcdPuts("Reflexer");
   59              		.loc 1 56 0
   60 0040 0D48     		ldr	r0, .L18
   61 0042 FFF7FEFF 		bl	lcdPuts
@@ -177,10 +178,10 @@ ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/ccreHEHg.s 			page 1
   96              		.loc 1 67 0
   97 006c 0228     		cmp	r0, #2
   98 006e EAD1     		bne	.L17
+ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/ccffqh4M.s 			page 4
+
+
   99 0070 FFF7FEFF 		bl	getRightArrow
-ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/ccreHEHg.s 			page 4
-
-
  100              	.LVL9:
  101 0074 E7E7     		b	.L17
  102              	.L19:
@@ -237,10 +238,10 @@ ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/ccreHEHg.s 			page 1
  153 000f 04000000 		.4byte	.LCFI1-.Ltext0
  154 0013 0200     		.2byte	0x2
  155 0015 7D       		.byte	0x7d
+ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/ccffqh4M.s 			page 5
+
+
  156 0016 04       		.sleb128 4
-ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/ccreHEHg.s 			page 5
-
-
  157 0017 04000000 		.4byte	.LCFI1-.Ltext0
  158 001b 7C000000 		.4byte	.LFE2-.Ltext0
  159 001f 0200     		.2byte	0x2
@@ -297,10 +298,10 @@ ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/ccreHEHg.s 			page 1
  210 0038 4B000000 		.4byte	.LASF1
  211 003c 02       		.byte	0x2
  212 003d 07       		.byte	0x7
+ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/ccffqh4M.s 			page 6
+
+
  213 003e 03       		.uleb128 0x3
-ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/ccreHEHg.s 			page 6
-
-
  214 003f 5E000000 		.4byte	.LASF2
  215 0043 04       		.byte	0x4
  216 0044 07       		.byte	0x7
@@ -357,10 +358,10 @@ ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/ccreHEHg.s 			page 1
  267 000c 0B       		.uleb128 0xb
  268 000d 03       		.uleb128 0x3
  269 000e 0E       		.uleb128 0xe
+ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/ccffqh4M.s 			page 7
+
+
  270 000f 1B       		.uleb128 0x1b
-ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/ccreHEHg.s 			page 7
-
-
  271 0010 0E       		.uleb128 0xe
  272 0011 00       		.byte	0x0
  273 0012 00       		.byte	0x0
@@ -417,10 +418,10 @@ ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/ccreHEHg.s 			page 1
  324 0045 12       		.uleb128 0x12
  325 0046 01       		.uleb128 0x1
  326 0047 40       		.uleb128 0x40
+ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/ccffqh4M.s 			page 8
+
+
  327 0048 06       		.uleb128 0x6
-ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/ccreHEHg.s 			page 8
-
-
  328 0049 00       		.byte	0x0
  329 004a 00       		.byte	0x0
  330 004b 06       		.uleb128 0x6
@@ -477,10 +478,10 @@ ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/ccreHEHg.s 			page 1
  377      65636C69 
  377      7073652F 
  378              	.LASF9:
+ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/ccffqh4M.s 			page 9
+
+
  379 0023 696E6974 		.ascii	"initApp\000"
-ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/ccreHEHg.s 			page 9
-
-
  379      41707000 
  380              	.LASF0:
  381 002b 756E7369 		.ascii	"unsigned char\000"
@@ -525,14 +526,14 @@ ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/ccreHEHg.s 			page 1
  397      65642063 
  397      68617200 
  398              		.ident	"GCC: (GNU) 4.1.1"
-ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/ccreHEHg.s 			page 10
+ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/ccffqh4M.s 			page 10
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 Reflexes.c
-/cygdrive/c/Users/Zbyszko/AppData/Local/Temp/ccreHEHg.s:1      .text:00000000 $t
-/cygdrive/c/Users/Zbyszko/AppData/Local/Temp/ccreHEHg.s:21     .text:00000000 initApp
-/cygdrive/c/Users/Zbyszko/AppData/Local/Temp/ccreHEHg.s:105    .text:00000078 $d
+/cygdrive/c/Users/Zbyszko/AppData/Local/Temp/ccffqh4M.s:1      .text:00000000 $t
+/cygdrive/c/Users/Zbyszko/AppData/Local/Temp/ccffqh4M.s:21     .text:00000000 initApp
+/cygdrive/c/Users/Zbyszko/AppData/Local/Temp/ccffqh4M.s:105    .text:00000078 $d
 
 UNDEFINED SYMBOLS
 lcdColor

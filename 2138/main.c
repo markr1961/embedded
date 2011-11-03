@@ -24,20 +24,10 @@
 #include "key.h"
 #include "uart.h"
 #include "snake.h"
-#include "pong.h"
 #include "bt.h"
 #include "hw.h"
-#include "chess/chess.h"
-#include "startupDisplay.h"
 #include "Arrow.h"
 #include "Reflexes.h"
-#include "fire_0_100x40c.h"
-#include "fire_1_100x40c.h"
-#include "fire_2_100x40c.h"
-#include "fire_3_100x40c.h"
-#include "fire_4_100x40c.h"
-#include "fire_5_100x40c.h"
-#include "fire_6_100x40c.h"
 
 /******************************************************************************
  * Typedefs and defines
@@ -118,11 +108,11 @@ drawMenuCursor(tU8 cursor)
 
     switch(row)
     {
-      case 0: lcdPuts("Play Example"); break;
-      case 1: lcdPuts("InitApp"); break;
-      case 2: lcdPuts("Play R"); break;
-      case 3: lcdPuts("Play U"); break;
-      case 4: lcdPuts("D"); break;
+      case 0: lcdPuts("Start Test"); break;
+      case 1: lcdPuts("Options"); break;
+      case 2: lcdPuts("Authors"); break;
+      case 3: lcdPuts("Play Snake :)"); break;
+      case 4: lcdPuts("Reset"); break;
       default: break;
     }
   }
@@ -146,7 +136,7 @@ drawMenu(void)
 
   lcdGotoxy(48,1);
   lcdColor(0x6d,0);
-  lcdPuts("MENU");
+  lcdPuts("REFLEX 1.0");
   drawMenuCursor(cursor);
 }
 
@@ -188,7 +178,6 @@ proc1(void* arg)
   //display startup message
   resetLCD();
   lcdInit();
-  displayStartupSequence();
 
   //print menu
   drawMenu();
@@ -206,10 +195,10 @@ proc1(void* arg)
       {
         switch(cursor)
         {
-          case 0: playSnake(); break;
+          case 0: initApp(); break;
           case 1: initApp(); break;
           case 2: getRightArrow(); break;
-          case 3: getUpArrow(); break;
+          case 3: playSnake(); break;
           case 4: getDownArrow(); break;
           default: break;
         }
@@ -251,19 +240,6 @@ proc1(void* arg)
         lcdContrast(contrast);
       }
     }
-    /*
-    switch(i)
-    {
-      case 0: lcdIcon(15, 88, 100, 40, _fire_0_100x40c[2], _fire_0_100x40c[3], &_fire_0_100x40c[4]); i++; break;
-      case 1: lcdIcon(15, 88, 100, 40, _fire_1_100x40c[2], _fire_1_100x40c[3], &_fire_1_100x40c[4]); i++; break;
-      case 2: lcdIcon(15, 88, 100, 40, _fire_2_100x40c[2], _fire_2_100x40c[3], &_fire_2_100x40c[4]); i++; break;
-      case 3: lcdIcon(15, 88, 100, 40, _fire_3_100x40c[2], _fire_3_100x40c[3], &_fire_3_100x40c[4]); i++; break;
-      case 4: lcdIcon(15, 88, 100, 40, _fire_4_100x40c[2], _fire_4_100x40c[3], &_fire_4_100x40c[4]); i++; break;
-      case 5: lcdIcon(15, 88, 100, 40, _fire_5_100x40c[2], _fire_5_100x40c[3], &_fire_5_100x40c[4]); i++; break;
-      case 6: lcdIcon(15, 88, 100, 40, _fire_6_100x40c[2], _fire_6_100x40c[3], &_fire_6_100x40c[4]); i = 0; break;
-      default: i = 0; break;
-    }
-    //*/
 
     osSleep(20);
   }
