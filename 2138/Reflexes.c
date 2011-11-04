@@ -68,3 +68,11 @@ void initApp(void){
 	    }
 	}
 }
+
+void authorsFooter(void){
+
+}
+
+void instructionsInfo(void){
+
+}

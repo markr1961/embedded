@@ -9,5 +9,7 @@
 #define REFLEXES_H_
 
 void initApp(void);
+void authorsFooter(void);
+void instructionsInfo(void);
 
 #endif /* REFLEXES_H_ */

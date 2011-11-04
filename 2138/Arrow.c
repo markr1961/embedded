@@ -43,21 +43,21 @@
 /*****************************************************************************
  *
  * Description:
- *    Opis tutaj
+ *    Methods displaying proper arrow icon
  *
  ****************************************************************************/
 void getUpArrow(void){
-	lcdIcon(5, 5, 90, 93, _ArrowUp[2], _ArrowUp[3], &_ArrowUp[4]);
+	lcdIcon(20,20,90,93, _ArrowUp[2], _ArrowUp[3], &_ArrowUp[4]);
 }
 
 void getDownArrow(void){
-	lcdIcon(5,5,90,88,_ArrowDown[2], _ArrowDown[3], &_ArrowDown[4]);
+	lcdIcon(20,20,90,88,_ArrowDown[2], _ArrowDown[3], &_ArrowDown[4]);
 }
 
 void getRightArrow(void){
-	lcdIcon(5,5,90,92,_ArrowRight[2], _ArrowRight[3], &_ArrowRight[4]);
+	lcdIcon(20,20,90,92,_ArrowRight[2], _ArrowRight[3], &_ArrowRight[4]);
 }
 
 void getLeftArrow(void){
-	lcdIcon(5,5,90,93,_ArrowLeft[2], _ArrowLeft[3], &_ArrowLeft[4]);
+	lcdIcon(20,20,90,93,_ArrowLeft[2], _ArrowLeft[3], &_ArrowLeft[4]);
 }

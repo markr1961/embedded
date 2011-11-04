@@ -18,8 +18,6 @@
 #include "../pre_emptive_os/api/general.h"
 #include <printf_P.h>
 #include <ea_init.h>
-
-
 #include "lcd.h"
 #include "key.h"
 #include "uart.h"
@@ -109,7 +107,7 @@ drawMenuCursor(tU8 cursor)
     switch(row)
     {
       case 0: lcdPuts("Start Test"); break;
-      case 1: lcdPuts("Options"); break;
+      case 1: lcdPuts("Instructions"); break;
       case 2: lcdPuts("Authors"); break;
       case 3: lcdPuts("Play Snake :)"); break;
       case 4: lcdPuts("Reset"); break;
@@ -196,8 +194,8 @@ proc1(void* arg)
         switch(cursor)
         {
           case 0: initApp(); break;
-          case 1: initApp(); break;
-          case 2: getRightArrow(); break;
+          case 1: instructionsInfo(); break;
+          case 2: authorsFooter(); break;
           case 3: playSnake(); break;
           case 4: getDownArrow(); break;
           default: break;
@@ -308,8 +306,3 @@ appTick(tU32 elapsedTime)
   if((ms % 50) == 0)
     sampleKey();
 }
-
-
-
-
-
