@@ -48,6 +48,7 @@ static tU8 initStack[INIT_STACK_SIZE];
 static tU8 pid1;
 
 static tU32 systemTimeMs;
+static tU32 a;
 
 static tU8 contrast = 56;
 static tU8 cursor   = 0;
@@ -142,16 +143,25 @@ drawMenu(void)
 }
 
 static void timer(void){
-	T0TCR=0x02;
-	T0PR=0x100;
-	//przeliczenie CORE_FREQ/PBST/1000-1;
-	T0TCR=0x01;
+	T1TCR=0x02;
+	T1MCR=0x0;
+	T1PR=CORE_FREQ/PBSD/1000-1;
+	T1TCR=0x01;
 }
 
 static char* read(void){
-	systemTimeMs=T0TC;
-    //T0PR=CORE_Freq/PBSD/1000-1;
+	systemTimeMs=T1TC;
 	sprintf(buf, "%d", systemTimeMs);
+	return buf;
+}
+
+static tU32 rand(void){
+	a=T0TC%4;
+	return a;
+}
+
+static char* getrand(void){
+	sprintf(buf, "%d", rand());
 	return buf;
 }
 /*****************************************************************************
@@ -211,7 +221,7 @@ proc1(void* arg)
           case 0: initApp(); break;
           case 1: instructionsInfo(); lcdPuts(read()); break;
           case 2: authorsFooter();timer(); break;
-          case 3: playSnake(); break;
+          case 3: lcdPuts(getrand()); break;
           case 4: getDownArrow(); break;
           default: break;
         }
