@@ -1,4 +1,4 @@
-ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s 			page 1
+ARM GAS  /cygdrive/c/Users/Tomek/AppData/Local/Temp/cc169I6a.s 			page 1
 
 
    1              		.code	16
@@ -58,7 +58,7 @@ ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s 			page 1
   34:snake.c       **** #define SNAKE_START_ROW  7
   35:snake.c       **** #define PAUSE_LENGTH     2
   36:snake.c       **** 
-ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s 			page 2
+ARM GAS  /cygdrive/c/Users/Tomek/AppData/Local/Temp/cc169I6a.s 			page 2
 
 
   37:snake.c       **** 
@@ -118,7 +118,7 @@ ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s 			page 1
   91:snake.c       ****     srand(ms);        //Ensure random seed initiated
   92:snake.c       ****     setupLevel();
   93:snake.c       **** 
-ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s 			page 3
+ARM GAS  /cygdrive/c/Users/Tomek/AppData/Local/Temp/cc169I6a.s 			page 3
 
 
   94:snake.c       ****     //main loop
@@ -178,7 +178,7 @@ ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s 			page 1
  148:snake.c       ****           keypress = KEY_CENTER;   //exit loop - game over
  149:snake.c       ****           break;
  150:snake.c       ****         }
-ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s 			page 4
+ARM GAS  /cygdrive/c/Users/Tomek/AppData/Local/Temp/cc169I6a.s 			page 4
 
 
  151:snake.c       **** 
@@ -238,7 +238,7 @@ ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s 			page 1
  205:snake.c       ****         case 1: done = TRUE; break;   //End game
  206:snake.c       ****         default: break;
  207:snake.c       ****       }
-ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s 			page 5
+ARM GAS  /cygdrive/c/Users/Tomek/AppData/Local/Temp/cc169I6a.s 			page 5
 
 
  208:snake.c       ****     }
@@ -298,7 +298,7 @@ ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s 			page 1
  262:snake.c       ****   }
  263:snake.c       **** 
  264:snake.c       ****   //draw game board
-ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s 			page 6
+ARM GAS  /cygdrive/c/Users/Tomek/AppData/Local/Temp/cc169I6a.s 			page 6
 
 
  265:snake.c       ****   for(row=0; row<MAXROW; row++)
@@ -358,7 +358,7 @@ ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s 			page 1
  319:snake.c       ****           str[9] = ' ';
  320:snake.c       ****           if (str[10] == '0')
  321:snake.c       ****           {
-ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s 			page 7
+ARM GAS  /cygdrive/c/Users/Tomek/AppData/Local/Temp/cc169I6a.s 			page 7
 
 
  322:snake.c       ****             str[10] = ' ';
@@ -418,7 +418,7 @@ ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s 			page 1
   49              		.loc 1 344 0
   50 002e 0918     		add	r1, r1, r0
   51              		.loc 1 343 0
-ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s 			page 8
+ARM GAS  /cygdrive/c/Users/Tomek/AppData/Local/Temp/cc169I6a.s 			page 8
 
 
   52 0030 1350     		str	r3, [r2, r0]
@@ -478,7 +478,7 @@ ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s 			page 1
  353:snake.c       ****                      snake[snakeLength].col = snake[snakeLength-1].col;
   98              		.loc 1 353 0
   99 0076 0918     		add	r1, r1, r0
-ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s 			page 9
+ARM GAS  /cygdrive/c/Users/Tomek/AppData/Local/Temp/cc169I6a.s 			page 9
 
 
  100              		.loc 1 352 0
@@ -538,7 +538,7 @@ ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s 			page 1
  140              		.loc 1 367 0
  141 00a0 8906     		lsl	r1, r1, #26
  142              	.LVL3:
-ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s 			page 10
+ARM GAS  /cygdrive/c/Users/Tomek/AppData/Local/Temp/cc169I6a.s 			page 10
 
 
  143              		.loc 1 366 0
@@ -598,7 +598,7 @@ ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s 			page 1
  196              		.loc 1 299 0
  197 00da 2D49     		ldr	r1, .L23+8
  198              		.loc 1 296 0
-ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s 			page 11
+ARM GAS  /cygdrive/c/Users/Tomek/AppData/Local/Temp/cc169I6a.s 			page 11
 
 
  199 00dc 2026     		mov	r6, #32
@@ -658,7 +658,7 @@ ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s 			page 1
  253 0142 2B73     		strb	r3, [r5, #12]
  254              		.loc 1 308 0
  255 0144 AB79     		ldrb	r3, [r5, #6]
-ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s 			page 12
+ARM GAS  /cygdrive/c/Users/Tomek/AppData/Local/Temp/cc169I6a.s 			page 12
 
 
  256              		.loc 1 304 0
@@ -718,7 +718,7 @@ ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s 			page 1
  310 0188 14000000 		.word	level
  311 018c 04000000 		.word	score
  312 0190 A0860100 		.word	100000
-ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s 			page 13
+ARM GAS  /cygdrive/c/Users/Tomek/AppData/Local/Temp/cc169I6a.s 			page 13
 
 
  313 0194 10270000 		.word	10000
@@ -778,7 +778,7 @@ ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s 			page 1
  366 01de 1360     		str	r3, [r2]
  367              		.loc 1 238 0
  368 01e0 3A4A     		ldr	r2, .L59+12
-ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s 			page 14
+ARM GAS  /cygdrive/c/Users/Tomek/AppData/Local/Temp/cc169I6a.s 			page 14
 
 
  369 01e2 0223     		mov	r3, #2
@@ -838,7 +838,7 @@ ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s 			page 1
  423              	.L32:
  424              		.loc 1 254 0
  425 022e 131B     		sub	r3, r2, r4
-ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s 			page 15
+ARM GAS  /cygdrive/c/Users/Tomek/AppData/Local/Temp/cc169I6a.s 			page 15
 
 
  426 0230 1B18     		add	r3, r3, r0
@@ -898,7 +898,7 @@ ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s 			page 1
  480 0278 06E0     		b	.L58
  481              	.LVL18:
  482              	.L42:
-ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s 			page 16
+ARM GAS  /cygdrive/c/Users/Tomek/AppData/Local/Temp/cc169I6a.s 			page 16
 
 
  483              		.loc 1 272 0
@@ -958,7 +958,7 @@ ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s 			page 1
  537 02b6 074A     		ldr	r2, .L59+20
  538 02b8 1B1B     		sub	r3, r3, r4
  539 02ba 9E18     		add	r6, r3, r2
-ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s 			page 17
+ARM GAS  /cygdrive/c/Users/Tomek/AppData/Local/Temp/cc169I6a.s 			page 17
 
 
  540              	.LVL32:
@@ -1018,7 +1018,7 @@ ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s 			page 1
  587 02ec 0123     		mov	r3, #1
  588 02ee 1360     		str	r3, [r2]
  589              		.loc 1 89 0
-ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s 			page 18
+ARM GAS  /cygdrive/c/Users/Tomek/AppData/Local/Temp/cc169I6a.s 			page 18
 
 
  590 02f0 804A     		ldr	r2, .L113+8
@@ -1078,7 +1078,7 @@ ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s 			page 1
  644 0344 1868     		ldr	r0, [r3]
  645 0346 0121     		mov	r1, #1
  646              	.LVL37:
-ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s 			page 19
+ARM GAS  /cygdrive/c/Users/Tomek/AppData/Local/Temp/cc169I6a.s 			page 19
 
 
  647 0348 05E0     		b	.L70
@@ -1138,7 +1138,7 @@ ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s 			page 1
  701 0392 1C1C     		mov	r4, r3
  702 0394 013C     		sub	r4, r4, #1
  703 0396 5B4A     		ldr	r2, .L113+24
-ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s 			page 20
+ARM GAS  /cygdrive/c/Users/Tomek/AppData/Local/Temp/cc169I6a.s 			page 20
 
 
  704 0398 9C46     		mov	ip, r3
@@ -1198,7 +1198,7 @@ ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s 			page 1
  758 03ea 5A68     		ldr	r2, [r3, #4]
  759 03ec 4949     		ldr	r1, .L113+40
  760 03ee 4301     		lsl	r3, r0, #5
-ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s 			page 21
+ARM GAS  /cygdrive/c/Users/Tomek/AppData/Local/Temp/cc169I6a.s 			page 21
 
 
  761 03f0 1B1A     		sub	r3, r3, r0
@@ -1258,7 +1258,7 @@ ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s 			page 1
  815 0446 0028     		cmp	r0, #0
  816 0448 05D1     		bne	.L93
  817 044a 2B4A     		ldr	r2, .L113+12
-ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s 			page 22
+ARM GAS  /cygdrive/c/Users/Tomek/AppData/Local/Temp/cc169I6a.s 			page 22
 
 
  818 044c 1368     		ldr	r3, [r2]
@@ -1318,7 +1318,7 @@ ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s 			page 1
  872              		.loc 1 191 0
  873 0492 0020     		mov	r0, #0
  874              		.loc 1 195 0
-ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s 			page 23
+ARM GAS  /cygdrive/c/Users/Tomek/AppData/Local/Temp/cc169I6a.s 			page 23
 
 
  875 0494 0D93     		str	r3, [sp, #52]
@@ -1378,7 +1378,7 @@ ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s 			page 1
  929              		@ sp needed for prologue
  930              	.LVL50:
  931 04e4 F0BC     		pop	{r4, r5, r6, r7}
-ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s 			page 24
+ARM GAS  /cygdrive/c/Users/Tomek/AppData/Local/Temp/cc169I6a.s 			page 24
 
 
  932 04e6 01BC     		pop	{r0}
@@ -1438,7 +1438,7 @@ ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s 			page 1
  982              		.comm	snake,800,4
  983 0285 000000   		.section	.debug_frame,"",%progbits
  984              	.Lframe0:
-ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s 			page 25
+ARM GAS  /cygdrive/c/Users/Tomek/AppData/Local/Temp/cc169I6a.s 			page 25
 
 
  985 0000 0C000000 		.4byte	.LECIE0-.LSCIE0
@@ -1498,7 +1498,7 @@ ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s 			page 1
  1039 0050 02       		.uleb128 0x2
  1040 0051 8E       		.byte	0x8e
  1041 0052 01       		.uleb128 0x1
-ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s 			page 26
+ARM GAS  /cygdrive/c/Users/Tomek/AppData/Local/Temp/cc169I6a.s 			page 26
 
 
  1042 0053 42       		.byte	0x4
@@ -1558,7 +1558,7 @@ ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s 			page 1
  1096              		.align	2
  1097              	.LEFDE8:
  1098              		.file 2 "./startup/../pre_emptive_os/api/../api/general.h"
-ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s 			page 27
+ARM GAS  /cygdrive/c/Users/Tomek/AppData/Local/Temp/cc169I6a.s 			page 27
 
 
  1099              		.file 3 "select.h"
@@ -1618,7 +1618,7 @@ ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s 			page 1
  1153 0082 0200     		.2byte	0x2
  1154 0084 7D       		.byte	0x7d
  1155 0085 10       		.sleb128 16
-ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s 			page 28
+ARM GAS  /cygdrive/c/Users/Tomek/AppData/Local/Temp/cc169I6a.s 			page 28
 
 
  1156 0086 C0000000 		.4byte	.LCFI3-.Ltext0
@@ -1678,7 +1678,7 @@ ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s 			page 1
  1210 0116 B2020000 		.4byte	.LVL30-.Ltext0
  1211 011a 0100     		.2byte	0x1
  1212 011c 54       		.byte	0x54
-ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s 			page 29
+ARM GAS  /cygdrive/c/Users/Tomek/AppData/Local/Temp/cc169I6a.s 			page 29
 
 
  1213 011d B4020000 		.4byte	.LVL31-.Ltext0
@@ -1738,7 +1738,7 @@ ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s 			page 1
  1267 01b1 4A020000 		.4byte	.LVL15-.Ltext0
  1268 01b5 60020000 		.4byte	.LVL16-.Ltext0
  1269 01b9 0100     		.2byte	0x1
-ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s 			page 30
+ARM GAS  /cygdrive/c/Users/Tomek/AppData/Local/Temp/cc169I6a.s 			page 30
 
 
  1270 01bb 51       		.byte	0x51
@@ -1798,7 +1798,7 @@ ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s 			page 1
  1324 024c 00000000 		.4byte	0x0
  1325              	.LLST12:
  1326 0250 08030000 		.4byte	.LVL34-.Ltext0
-ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s 			page 31
+ARM GAS  /cygdrive/c/Users/Tomek/AppData/Local/Temp/cc169I6a.s 			page 31
 
 
  1327 0254 48030000 		.4byte	.LVL37-.Ltext0
@@ -1843,33 +1843,33 @@ ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s 			page 1
  1366 000c 00000000 		.4byte	.Ldebug_line0
  1367 0010 28050000 		.4byte	.Letext0
  1368 0014 00000000 		.4byte	.Ltext0
- 1369 0018 8E010000 		.4byte	.LASF45
+ 1369 0018 AF010000 		.4byte	.LASF45
  1370 001c 01       		.byte	0x1
- 1371 001d DB010000 		.4byte	.LASF46
- 1372 0021 98000000 		.4byte	.LASF47
+ 1371 001d FC010000 		.4byte	.LASF46
+ 1372 0021 26000000 		.4byte	.LASF47
  1373 0025 02       		.uleb128 0x2
  1374 0026 74553800 		.ascii	"tU8\000"
  1375 002a 02       		.byte	0x2
  1376 002b 47       		.byte	0x47
  1377 002c 30000000 		.4byte	0x30
  1378 0030 03       		.uleb128 0x3
- 1379 0031 80010000 		.4byte	.LASF0
+ 1379 0031 A1010000 		.4byte	.LASF0
  1380 0035 01       		.byte	0x1
  1381 0036 08       		.byte	0x8
  1382 0037 03       		.uleb128 0x3
- 1383 0038 16010000 		.4byte	.LASF1
-ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s 			page 32
+ 1383 0038 37010000 		.4byte	.LASF1
+ARM GAS  /cygdrive/c/Users/Tomek/AppData/Local/Temp/cc169I6a.s 			page 32
 
 
  1384 003c 02       		.byte	0x2
  1385 003d 07       		.byte	0x7
  1386 003e 04       		.uleb128 0x4
- 1387 003f 32010000 		.4byte	.LASF2
+ 1387 003f 53010000 		.4byte	.LASF2
  1388 0043 02       		.byte	0x2
  1389 0044 49       		.byte	0x49
  1390 0045 49000000 		.4byte	0x49
  1391 0049 03       		.uleb128 0x3
- 1392 004a E2000000 		.4byte	.LASF3
+ 1392 004a 03010000 		.4byte	.LASF3
  1393 004e 04       		.byte	0x4
  1394 004f 07       		.byte	0x7
  1395 0050 02       		.uleb128 0x2
@@ -1882,11 +1882,11 @@ ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s 			page 1
  1402 0060 01       		.byte	0x1
  1403 0061 06       		.byte	0x6
  1404 0062 03       		.uleb128 0x3
- 1405 0063 A6010000 		.4byte	.LASF5
+ 1405 0063 C7010000 		.4byte	.LASF5
  1406 0067 02       		.byte	0x2
  1407 0068 05       		.byte	0x5
  1408 0069 04       		.uleb128 0x4
- 1409 006a C5010000 		.4byte	.LASF6
+ 1409 006a E6010000 		.4byte	.LASF6
  1410 006e 02       		.byte	0x2
  1411 006f 4C       		.byte	0x4c
  1412 0070 74000000 		.4byte	0x74
@@ -1895,7 +1895,7 @@ ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s 			page 1
  1415 0079 04       		.byte	0x4
  1416 007a 05       		.byte	0x5
  1417 007b 04       		.uleb128 0x4
- 1418 007c 7A000000 		.4byte	.LASF7
+ 1418 007c BE000000 		.4byte	.LASF7
  1419 0080 02       		.byte	0x2
  1420 0081 4D       		.byte	0x4d
  1421 0082 30000000 		.4byte	0x30
@@ -1903,30 +1903,30 @@ ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s 			page 1
  1423 0087 04       		.byte	0x4
  1424 0088 25000000 		.4byte	0x25
  1425 008c 03       		.uleb128 0x3
- 1426 008d FE000000 		.4byte	.LASF8
+ 1426 008d 1F010000 		.4byte	.LASF8
  1427 0091 04       		.byte	0x4
  1428 0092 07       		.byte	0x7
  1429 0093 03       		.uleb128 0x3
- 1430 0094 FE000000 		.4byte	.LASF8
+ 1430 0094 1F010000 		.4byte	.LASF8
  1431 0098 04       		.byte	0x4
  1432 0099 07       		.byte	0x7
  1433 009a 03       		.uleb128 0x3
- 1434 009b 8A000000 		.4byte	.LASF9
+ 1434 009b CE000000 		.4byte	.LASF9
  1435 009f 04       		.byte	0x4
  1436 00a0 05       		.byte	0x5
  1437 00a1 03       		.uleb128 0x3
- 1438 00a2 6C000000 		.4byte	.LASF10
+ 1438 00a2 B0000000 		.4byte	.LASF10
  1439 00a6 08       		.byte	0x8
  1440 00a7 05       		.byte	0x5
-ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s 			page 33
+ARM GAS  /cygdrive/c/Users/Tomek/AppData/Local/Temp/cc169I6a.s 			page 33
 
 
  1441 00a8 03       		.uleb128 0x3
- 1442 00a9 C0010000 		.4byte	.LASF11
+ 1442 00a9 E1010000 		.4byte	.LASF11
  1443 00ad 01       		.byte	0x1
  1444 00ae 08       		.byte	0x8
  1445 00af 03       		.uleb128 0x3
- 1446 00b0 26000000 		.4byte	.LASF12
+ 1446 00b0 6A000000 		.4byte	.LASF12
  1447 00b4 08       		.byte	0x8
  1448 00b5 07       		.byte	0x7
  1449 00b6 07       		.uleb128 0x7
@@ -1935,7 +1935,7 @@ ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s 			page 1
  1452 00bc 03       		.byte	0x3
  1453 00bd 1A       		.byte	0x1a
  1454 00be 08       		.uleb128 0x8
- 1455 00bf FB010000 		.4byte	.LASF13
+ 1455 00bf 1C020000 		.4byte	.LASF13
  1456 00c3 03       		.byte	0x3
  1457 00c4 1B       		.byte	0x1b
  1458 00c5 25000000 		.4byte	0x25
@@ -1943,7 +1943,7 @@ ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s 			page 1
  1460 00ca 23       		.byte	0x23
  1461 00cb 00       		.uleb128 0x0
  1462 00cc 08       		.uleb128 0x8
- 1463 00cd CA010000 		.4byte	.LASF14
+ 1463 00cd EB010000 		.4byte	.LASF14
  1464 00d1 03       		.byte	0x3
  1465 00d2 1C       		.byte	0x1c
  1466 00d3 25000000 		.4byte	0x25
@@ -1951,7 +1951,7 @@ ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s 			page 1
  1468 00d8 23       		.byte	0x23
  1469 00d9 01       		.uleb128 0x1
  1470 00da 08       		.uleb128 0x8
- 1471 00db B0010000 		.4byte	.LASF15
+ 1471 00db D1010000 		.4byte	.LASF15
  1472 00df 03       		.byte	0x3
  1473 00e0 1D       		.byte	0x1d
  1474 00e1 25000000 		.4byte	0x25
@@ -1959,7 +1959,7 @@ ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s 			page 1
  1476 00e6 23       		.byte	0x23
  1477 00e7 02       		.uleb128 0x2
  1478 00e8 08       		.uleb128 0x8
- 1479 00e9 93000000 		.4byte	.LASF16
+ 1479 00e9 D7000000 		.4byte	.LASF16
  1480 00ed 03       		.byte	0x3
  1481 00ee 1E       		.byte	0x1e
  1482 00ef 25000000 		.4byte	0x25
@@ -1967,7 +1967,7 @@ ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s 			page 1
  1484 00f4 23       		.byte	0x23
  1485 00f5 03       		.uleb128 0x3
  1486 00f6 08       		.uleb128 0x8
- 1487 00f7 BB000000 		.4byte	.LASF17
+ 1487 00f7 DC000000 		.4byte	.LASF17
  1488 00fb 03       		.byte	0x3
  1489 00fc 1F       		.byte	0x1f
  1490 00fd 25000000 		.4byte	0x25
@@ -1975,10 +1975,10 @@ ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s 			page 1
  1492 0102 23       		.byte	0x23
  1493 0103 04       		.uleb128 0x4
  1494 0104 08       		.uleb128 0x8
- 1495 0105 D4000000 		.4byte	.LASF18
+ 1495 0105 F5000000 		.4byte	.LASF18
  1496 0109 03       		.byte	0x3
  1497 010a 20       		.byte	0x20
-ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s 			page 34
+ARM GAS  /cygdrive/c/Users/Tomek/AppData/Local/Temp/cc169I6a.s 			page 34
 
 
  1498 010b 25000000 		.4byte	0x25
@@ -1986,7 +1986,7 @@ ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s 			page 1
  1500 0110 23       		.byte	0x23
  1501 0111 05       		.uleb128 0x5
  1502 0112 08       		.uleb128 0x8
- 1503 0113 06020000 		.4byte	.LASF19
+ 1503 0113 27020000 		.4byte	.LASF19
  1504 0117 03       		.byte	0x3
  1505 0118 21       		.byte	0x21
  1506 0119 86000000 		.4byte	0x86
@@ -1994,7 +1994,7 @@ ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s 			page 1
  1508 011e 23       		.byte	0x23
  1509 011f 08       		.uleb128 0x8
  1510 0120 08       		.uleb128 0x8
- 1511 0121 EF000000 		.4byte	.LASF20
+ 1511 0121 10010000 		.4byte	.LASF20
  1512 0125 03       		.byte	0x3
  1513 0126 22       		.byte	0x22
  1514 0127 25000000 		.4byte	0x25
@@ -2002,7 +2002,7 @@ ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s 			page 1
  1516 012c 23       		.byte	0x23
  1517 012d 0C       		.uleb128 0xc
  1518 012e 08       		.uleb128 0x8
- 1519 012f 3D010000 		.4byte	.LASF21
+ 1519 012f 5E010000 		.4byte	.LASF21
  1520 0133 03       		.byte	0x3
  1521 0134 23       		.byte	0x23
  1522 0135 83010000 		.4byte	0x183
@@ -2010,7 +2010,7 @@ ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s 			page 1
  1524 013a 23       		.byte	0x23
  1525 013b 10       		.uleb128 0x10
  1526 013c 08       		.uleb128 0x8
- 1527 013d 50010000 		.4byte	.LASF22
+ 1527 013d 71010000 		.4byte	.LASF22
  1528 0141 03       		.byte	0x3
  1529 0142 24       		.byte	0x24
  1530 0143 25000000 		.4byte	0x25
@@ -2018,7 +2018,7 @@ ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s 			page 1
  1532 0148 23       		.byte	0x23
  1533 0149 28       		.uleb128 0x28
  1534 014a 08       		.uleb128 0x8
- 1535 014b 56000000 		.4byte	.LASF23
+ 1535 014b 9A000000 		.4byte	.LASF23
  1536 014f 03       		.byte	0x3
  1537 0150 25       		.byte	0x25
  1538 0151 25000000 		.4byte	0x25
@@ -2026,7 +2026,7 @@ ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s 			page 1
  1540 0156 23       		.byte	0x23
  1541 0157 29       		.uleb128 0x29
  1542 0158 08       		.uleb128 0x8
- 1543 0159 CF010000 		.4byte	.LASF24
+ 1543 0159 F0010000 		.4byte	.LASF24
  1544 015d 03       		.byte	0x3
  1545 015e 26       		.byte	0x26
  1546 015f 25000000 		.4byte	0x25
@@ -2034,18 +2034,18 @@ ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s 			page 1
  1548 0164 23       		.byte	0x23
  1549 0165 2A       		.uleb128 0x2a
  1550 0166 08       		.uleb128 0x8
- 1551 0167 C7000000 		.4byte	.LASF25
+ 1551 0167 E8000000 		.4byte	.LASF25
  1552 016b 03       		.byte	0x3
  1553 016c 27       		.byte	0x27
  1554 016d 25000000 		.4byte	0x25
-ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s 			page 35
+ARM GAS  /cygdrive/c/Users/Tomek/AppData/Local/Temp/cc169I6a.s 			page 35
 
 
  1555 0171 02       		.byte	0x2
  1556 0172 23       		.byte	0x23
  1557 0173 2B       		.uleb128 0x2b
  1558 0174 08       		.uleb128 0x8
- 1559 0175 3D000000 		.4byte	.LASF26
+ 1559 0175 81000000 		.4byte	.LASF26
  1560 0179 03       		.byte	0x3
  1561 017a 28       		.byte	0x28
  1562 017b 25000000 		.4byte	0x25
@@ -2061,13 +2061,13 @@ ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s 			page 1
  1572 0191 05       		.byte	0x5
  1573 0192 00       		.byte	0x0
  1574 0193 04       		.uleb128 0x4
- 1575 0194 7A010000 		.4byte	.LASF27
+ 1575 0194 9B010000 		.4byte	.LASF27
  1576 0198 03       		.byte	0x3
  1577 0199 29       		.byte	0x29
  1578 019a B6000000 		.4byte	0xb6
  1579 019e 0B       		.uleb128 0xb
  1580 019f C7010000 		.4byte	0x1c7
- 1581 01a3 E3010000 		.4byte	.LASF48
+ 1581 01a3 04020000 		.4byte	.LASF48
  1582 01a7 08       		.byte	0x8
  1583 01a8 01       		.byte	0x1
  1584 01a9 3D       		.byte	0x3d
@@ -2098,10 +2098,10 @@ ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s 			page 1
  1609 01d8 5D       		.byte	0x5d
  1610 01d9 0E       		.uleb128 0xe
  1611 01da 1F020000 		.4byte	0x21f
-ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s 			page 36
+ARM GAS  /cygdrive/c/Users/Tomek/AppData/Local/Temp/cc169I6a.s 			page 36
 
 
- 1612 01de 73010000 		.4byte	.LASF29
+ 1612 01de 94010000 		.4byte	.LASF29
  1613 01e2 01       		.byte	0x1
  1614 01e3 6E01     		.2byte	0x16e
  1615 01e5 01       		.byte	0x1
@@ -2121,7 +2121,7 @@ ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s 			page 1
  1629 0206 25000000 		.4byte	0x25
  1630 020a 3E000000 		.4byte	.LLST3
  1631 020e 10       		.uleb128 0x10
- 1632 020f 37010000 		.4byte	.LASF28
+ 1632 020f 58010000 		.4byte	.LASF28
  1633 0213 01       		.byte	0x1
  1634 0214 6D01     		.2byte	0x16d
  1635 0216 25000000 		.4byte	0x25
@@ -2129,7 +2129,7 @@ ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s 			page 1
  1637 021e 00       		.byte	0x0
  1638 021f 11       		.uleb128 0x11
  1639 0220 47020000 		.4byte	0x247
- 1640 0224 80000000 		.4byte	.LASF30
+ 1640 0224 C4000000 		.4byte	.LASF30
  1641 0228 01       		.byte	0x1
  1642 0229 2201     		.2byte	0x122
  1643 022b BC000000 		.4byte	.LFB4
@@ -2153,12 +2153,12 @@ ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s 			page 1
  1661 0256 00       		.byte	0x0
  1662 0257 13       		.uleb128 0x13
  1663 0258 9A020000 		.4byte	0x29a
- 1664 025c 58010000 		.4byte	.LASF31
+ 1664 025c 79010000 		.4byte	.LASF31
  1665 0260 01       		.byte	0x1
  1666 0261 DD       		.byte	0xdd
  1667 0262 98010000 		.4byte	.LFB3
  1668 0266 E0020000 		.4byte	.LFE3
-ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s 			page 37
+ARM GAS  /cygdrive/c/Users/Tomek/AppData/Local/Temp/cc169I6a.s 			page 37
 
 
  1669 026a 9A000000 		.4byte	.LLST6
@@ -2192,7 +2192,7 @@ ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s 			page 1
  1697 02ab 28050000 		.4byte	.LFE2
  1698 02af FB010000 		.4byte	.LLST10
  1699 02b3 16       		.uleb128 0x16
- 1700 02b4 29010000 		.4byte	.LASF32
+ 1700 02b4 4A010000 		.4byte	.LASF32
  1701 02b8 01       		.byte	0x1
  1702 02b9 51       		.byte	0x51
  1703 02ba 25000000 		.4byte	0x25
@@ -2217,8 +2217,8 @@ ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s 			page 1
  1722 02e9 72040000 		.4byte	.LBB3
  1723 02ed E2040000 		.4byte	.LBE3
  1724 02f1 1A       		.uleb128 0x1a
- 1725 02f2 F0010000 		.4byte	.LASF34
-ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s 			page 38
+ 1725 02f2 11020000 		.4byte	.LASF34
+ARM GAS  /cygdrive/c/Users/Tomek/AppData/Local/Temp/cc169I6a.s 			page 38
 
 
  1726 02f6 01       		.byte	0x1
@@ -2230,7 +2230,7 @@ ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s 			page 1
  1732 0300 00       		.byte	0x0
  1733 0301 00       		.byte	0x0
  1734 0302 1A       		.uleb128 0x1a
- 1735 0303 00020000 		.4byte	.LASF35
+ 1735 0303 21020000 		.4byte	.LASF35
  1736 0307 01       		.byte	0x1
  1737 0308 32       		.byte	0x32
  1738 0309 69000000 		.4byte	0x69
@@ -2238,7 +2238,7 @@ ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s 			page 1
  1740 030e 03       		.byte	0x3
  1741 030f 04000000 		.4byte	score
  1742 0313 1A       		.uleb128 0x1a
- 1743 0314 9A010000 		.4byte	.LASF36
+ 1743 0314 BB010000 		.4byte	.LASF36
  1744 0318 01       		.byte	0x1
  1745 0319 33       		.byte	0x33
  1746 031a 69000000 		.4byte	0x69
@@ -2246,7 +2246,7 @@ ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s 			page 1
  1748 031f 03       		.byte	0x3
  1749 0320 08000000 		.4byte	snakeLength
  1750 0324 1A       		.uleb128 0x1a
- 1751 0325 F5010000 		.4byte	.LASF37
+ 1751 0325 16020000 		.4byte	.LASF37
  1752 0329 01       		.byte	0x1
  1753 032a 34       		.byte	0x34
  1754 032b 69000000 		.4byte	0x69
@@ -2254,7 +2254,7 @@ ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s 			page 1
  1756 0330 03       		.byte	0x3
  1757 0331 0C000000 		.4byte	speed
  1758 0335 1A       		.uleb128 0x1a
- 1759 0336 62000000 		.4byte	.LASF38
+ 1759 0336 A6000000 		.4byte	.LASF38
  1760 033a 01       		.byte	0x1
  1761 033b 35       		.byte	0x35
  1762 033c 69000000 		.4byte	0x69
@@ -2262,7 +2262,7 @@ ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s 			page 1
  1764 0341 03       		.byte	0x3
  1765 0342 10000000 		.4byte	obstacles
  1766 0346 1A       		.uleb128 0x1a
- 1767 0347 10010000 		.4byte	.LASF39
+ 1767 0347 31010000 		.4byte	.LASF39
  1768 034b 01       		.byte	0x1
  1769 034c 36       		.byte	0x36
  1770 034d 69000000 		.4byte	0x69
@@ -2270,7 +2270,7 @@ ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s 			page 1
  1772 0352 03       		.byte	0x3
  1773 0353 14000000 		.4byte	level
  1774 0357 1A       		.uleb128 0x1a
- 1775 0358 B5010000 		.4byte	.LASF40
+ 1775 0358 D6010000 		.4byte	.LASF40
  1776 035c 01       		.byte	0x1
  1777 035d 37       		.byte	0x37
  1778 035e 7B000000 		.4byte	0x7b
@@ -2278,10 +2278,10 @@ ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s 			page 1
  1780 0363 03       		.byte	0x3
  1781 0364 18000000 		.4byte	firstPress
  1782 0368 1A       		.uleb128 0x1a
-ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s 			page 39
+ARM GAS  /cygdrive/c/Users/Tomek/AppData/Local/Temp/cc169I6a.s 			page 39
 
 
- 1783 0369 4B000000 		.4byte	.LASF41
+ 1783 0369 8F000000 		.4byte	.LASF41
  1784 036d 01       		.byte	0x1
  1785 036e 38       		.byte	0x38
  1786 036f 69000000 		.4byte	0x69
@@ -2299,7 +2299,7 @@ ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s 			page 1
  1798 038d 1E       		.byte	0x1e
  1799 038e 00       		.byte	0x0
  1800 038f 1A       		.uleb128 0x1a
- 1801 0390 45010000 		.4byte	.LASF42
+ 1801 0390 66010000 		.4byte	.LASF42
  1802 0394 01       		.byte	0x1
  1803 0395 39       		.byte	0x39
  1804 0396 79030000 		.4byte	0x379
@@ -2307,7 +2307,7 @@ ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s 			page 1
  1806 039b 03       		.byte	0x3
  1807 039c 19000000 		.4byte	screenGrid
  1808 03a0 1A       		.uleb128 0x1a
- 1809 03a1 63010000 		.4byte	.LASF43
+ 1809 03a1 84010000 		.4byte	.LASF43
  1810 03a5 01       		.byte	0x1
  1811 03a6 3A       		.byte	0x3a
  1812 03a7 50000000 		.4byte	0x50
@@ -2322,7 +2322,7 @@ ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s 			page 1
  1821 03bf 63       		.byte	0x63
  1822 03c0 00       		.byte	0x0
  1823 03c1 1B       		.uleb128 0x1b
- 1824 03c2 6D010000 		.4byte	.LASF44
+ 1824 03c2 8E010000 		.4byte	.LASF44
  1825 03c6 01       		.byte	0x1
  1826 03c7 40       		.byte	0x40
  1827 03c8 B1030000 		.4byte	0x3b1
@@ -2338,7 +2338,7 @@ ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s 			page 1
  1837 03dd 01       		.byte	0x1
  1838 03de 01       		.byte	0x1
  1839 03df 00       		.byte	0x0
-ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s 			page 40
+ARM GAS  /cygdrive/c/Users/Tomek/AppData/Local/Temp/cc169I6a.s 			page 40
 
 
  1840              		.section	.debug_abbrev
@@ -2398,7 +2398,7 @@ ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s 			page 1
  1894 0035 13       		.uleb128 0x13
  1895 0036 00       		.byte	0x0
  1896 0037 00       		.byte	0x0
-ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s 			page 41
+ARM GAS  /cygdrive/c/Users/Tomek/AppData/Local/Temp/cc169I6a.s 			page 41
 
 
  1897 0038 05       		.uleb128 0x5
@@ -2458,7 +2458,7 @@ ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s 			page 1
  1951 006e 13       		.uleb128 0x13
  1952 006f 00       		.byte	0x0
  1953 0070 00       		.byte	0x0
-ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s 			page 42
+ARM GAS  /cygdrive/c/Users/Tomek/AppData/Local/Temp/cc169I6a.s 			page 42
 
 
  1954 0071 0A       		.uleb128 0xa
@@ -2518,7 +2518,7 @@ ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s 			page 1
  2008 00a7 00       		.byte	0x0
  2009 00a8 00       		.byte	0x0
  2010 00a9 0E       		.uleb128 0xe
-ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s 			page 43
+ARM GAS  /cygdrive/c/Users/Tomek/AppData/Local/Temp/cc169I6a.s 			page 43
 
 
  2011 00aa 2E       		.uleb128 0x2e
@@ -2578,7 +2578,7 @@ ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s 			page 1
  2065 00e0 13       		.uleb128 0x13
  2066 00e1 03       		.uleb128 0x3
  2067 00e2 0E       		.uleb128 0xe
-ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s 			page 44
+ARM GAS  /cygdrive/c/Users/Tomek/AppData/Local/Temp/cc169I6a.s 			page 44
 
 
  2068 00e3 3A       		.uleb128 0x3a
@@ -2638,7 +2638,7 @@ ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s 			page 1
  2122 0119 0B       		.uleb128 0xb
  2123 011a 49       		.uleb128 0x49
  2124 011b 13       		.uleb128 0x13
-ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s 			page 45
+ARM GAS  /cygdrive/c/Users/Tomek/AppData/Local/Temp/cc169I6a.s 			page 45
 
 
  2125 011c 02       		.uleb128 0x2
@@ -2698,7 +2698,7 @@ ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s 			page 1
  2179 0152 00       		.byte	0x0
  2180 0153 18       		.uleb128 0x18
  2181 0154 0B       		.uleb128 0xb
-ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s 			page 46
+ARM GAS  /cygdrive/c/Users/Tomek/AppData/Local/Temp/cc169I6a.s 			page 46
 
 
  2182 0155 01       		.byte	0x1
@@ -2758,7 +2758,7 @@ ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s 			page 1
  2236 018b 08       		.uleb128 0x8
  2237 018c 3A       		.uleb128 0x3a
  2238 018d 0B       		.uleb128 0xb
-ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s 			page 47
+ARM GAS  /cygdrive/c/Users/Tomek/AppData/Local/Temp/cc169I6a.s 			page 47
 
 
  2239 018e 3B       		.uleb128 0x3b
@@ -2813,232 +2813,237 @@ ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s 			page 1
  2280 001b 61646453 		.ascii	"addSegment\000"
  2280      65676D65 
  2280      6E7400
- 2281              	.LASF12:
- 2282 0026 6C6F6E67 		.ascii	"long long unsigned int\000"
- 2282      206C6F6E 
- 2282      6720756E 
- 2282      7369676E 
-ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s 			page 48
+ 2281              	.LASF47:
+ 2282 0026 2F637967 		.ascii	"/cygdrive/c/Users/Tomek/Embedded Systems/Repozytori"
+ 2282      64726976 
+ 2282      652F632F 
+ 2282      55736572 
+ARM GAS  /cygdrive/c/Users/Tomek/AppData/Local/Temp/cc169I6a.s 			page 48
 
 
- 2282      65642069 
- 2283              	.LASF26:
- 2284 003d 73656C65 		.ascii	"selectedColor\000"
- 2284      63746564 
- 2284      436F6C6F 
- 2284      7200
- 2285              	.LASF41:
- 2286 004b 68696768 		.ascii	"high_score\000"
- 2286      5F73636F 
- 2286      726500
- 2287              	.LASF23:
- 2288 0056 626F7264 		.ascii	"borderColor\000"
- 2288      6572436F 
- 2288      6C6F7200 
- 2289              	.LASF38:
- 2290 0062 6F627374 		.ascii	"obstacles\000"
- 2290      61636C65 
- 2290      7300
- 2291              	.LASF10:
- 2292 006c 6C6F6E67 		.ascii	"long long int\000"
- 2292      206C6F6E 
- 2292      6720696E 
- 2292      7400
- 2293              	.LASF7:
- 2294 007a 74426F6F 		.ascii	"tBool\000"
- 2294      6C00
- 2295              	.LASF30:
- 2296 0080 73686F77 		.ascii	"showScore\000"
- 2296      53636F72 
- 2296      6500
- 2297              	.LASF9:
- 2298 008a 6C6F6E67 		.ascii	"long int\000"
- 2298      20696E74 
- 2298      00
- 2299              	.LASF16:
- 2300 0093 794C656E 		.ascii	"yLen\000"
- 2300      00
- 2301              	.LASF47:
- 2302 0098 2F637967 		.ascii	"/cygdrive/c/eclipse/workspace/2138\000"
- 2302      64726976 
- 2302      652F632F 
- 2302      65636C69 
- 2302      7073652F 
- 2303              	.LASF17:
- 2304 00bb 6E6F4F66 		.ascii	"noOfChoices\000"
- 2304      43686F69 
- 2304      63657300 
- 2305              	.LASF25:
- 2306 00c7 63686F69 		.ascii	"choicesColor\000"
- 2306      63657343 
- 2306      6F6C6F72 
- 2306      00
- 2307              	.LASF18:
- 2308 00d4 696E6974 		.ascii	"initialChoice\000"
- 2308      69616C43 
- 2308      686F6963 
- 2308      6500
-ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s 			page 49
+ 2282      732F546F 
+ 2283 0059 756D2F65 		.ascii	"um/embedded/2138\000"
+ 2283      6D626564 
+ 2283      6465642F 
+ 2283      32313338 
+ 2283      00
+ 2284              	.LASF12:
+ 2285 006a 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 2285      206C6F6E 
+ 2285      6720756E 
+ 2285      7369676E 
+ 2285      65642069 
+ 2286              	.LASF26:
+ 2287 0081 73656C65 		.ascii	"selectedColor\000"
+ 2287      63746564 
+ 2287      436F6C6F 
+ 2287      7200
+ 2288              	.LASF41:
+ 2289 008f 68696768 		.ascii	"high_score\000"
+ 2289      5F73636F 
+ 2289      726500
+ 2290              	.LASF23:
+ 2291 009a 626F7264 		.ascii	"borderColor\000"
+ 2291      6572436F 
+ 2291      6C6F7200 
+ 2292              	.LASF38:
+ 2293 00a6 6F627374 		.ascii	"obstacles\000"
+ 2293      61636C65 
+ 2293      7300
+ 2294              	.LASF10:
+ 2295 00b0 6C6F6E67 		.ascii	"long long int\000"
+ 2295      206C6F6E 
+ 2295      6720696E 
+ 2295      7400
+ 2296              	.LASF7:
+ 2297 00be 74426F6F 		.ascii	"tBool\000"
+ 2297      6C00
+ 2298              	.LASF30:
+ 2299 00c4 73686F77 		.ascii	"showScore\000"
+ 2299      53636F72 
+ 2299      6500
+ 2300              	.LASF9:
+ 2301 00ce 6C6F6E67 		.ascii	"long int\000"
+ 2301      20696E74 
+ 2301      00
+ 2302              	.LASF16:
+ 2303 00d7 794C656E 		.ascii	"yLen\000"
+ 2303      00
+ 2304              	.LASF17:
+ 2305 00dc 6E6F4F66 		.ascii	"noOfChoices\000"
+ 2305      43686F69 
+ 2305      63657300 
+ 2306              	.LASF25:
+ 2307 00e8 63686F69 		.ascii	"choicesColor\000"
+ 2307      63657343 
+ 2307      6F6C6F72 
+ 2307      00
+ARM GAS  /cygdrive/c/Users/Tomek/AppData/Local/Temp/cc169I6a.s 			page 49
 
 
- 2309              	.LASF3:
- 2310 00e2 756E7369 		.ascii	"unsigned int\000"
- 2310      676E6564 
- 2310      20696E74 
- 2310      00
- 2311              	.LASF20:
- 2312 00ef 68656164 		.ascii	"headerTextXpos\000"
- 2312      65725465 
- 2312      78745870 
- 2312      6F7300
- 2313              	.LASF8:
- 2314 00fe 6C6F6E67 		.ascii	"long unsigned int\000"
- 2314      20756E73 
- 2314      69676E65 
- 2314      6420696E 
- 2314      7400
- 2315              	.LASF39:
- 2316 0110 6C657665 		.ascii	"level\000"
- 2316      6C00
- 2317              	.LASF1:
- 2318 0116 73686F72 		.ascii	"short unsigned int\000"
- 2318      7420756E 
- 2318      7369676E 
- 2318      65642069 
- 2318      6E7400
- 2319              	.LASF32:
- 2320 0129 6B657970 		.ascii	"keypress\000"
- 2320      72657373 
- 2320      00
- 2321              	.LASF2:
- 2322 0132 74553332 		.ascii	"tU32\000"
- 2322      00
- 2323              	.LASF28:
- 2324 0137 636F6C6F 		.ascii	"color\000"
- 2324      7200
- 2325              	.LASF21:
- 2326 013d 7043686F 		.ascii	"pChoice\000"
- 2326      69636500 
- 2327              	.LASF42:
- 2328 0145 73637265 		.ascii	"screenGrid\000"
- 2328      656E4772 
- 2328      696400
- 2329              	.LASF22:
- 2330 0150 6267436F 		.ascii	"bgColor\000"
- 2330      6C6F7200 
- 2331              	.LASF31:
- 2332 0158 73657475 		.ascii	"setupLevel\000"
- 2332      704C6576 
- 2332      656C00
- 2333              	.LASF43:
- 2334 0163 64697265 		.ascii	"direction\000"
- 2334      6374696F 
- 2334      6E00
- 2335              	.LASF44:
- 2336 016d 736E616B 		.ascii	"snake\000"
- 2336      6500
- 2337              	.LASF29:
-ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s 			page 50
+ 2308              	.LASF18:
+ 2309 00f5 696E6974 		.ascii	"initialChoice\000"
+ 2309      69616C43 
+ 2309      686F6963 
+ 2309      6500
+ 2310              	.LASF3:
+ 2311 0103 756E7369 		.ascii	"unsigned int\000"
+ 2311      676E6564 
+ 2311      20696E74 
+ 2311      00
+ 2312              	.LASF20:
+ 2313 0110 68656164 		.ascii	"headerTextXpos\000"
+ 2313      65725465 
+ 2313      78745870 
+ 2313      6F7300
+ 2314              	.LASF8:
+ 2315 011f 6C6F6E67 		.ascii	"long unsigned int\000"
+ 2315      20756E73 
+ 2315      69676E65 
+ 2315      6420696E 
+ 2315      7400
+ 2316              	.LASF39:
+ 2317 0131 6C657665 		.ascii	"level\000"
+ 2317      6C00
+ 2318              	.LASF1:
+ 2319 0137 73686F72 		.ascii	"short unsigned int\000"
+ 2319      7420756E 
+ 2319      7369676E 
+ 2319      65642069 
+ 2319      6E7400
+ 2320              	.LASF32:
+ 2321 014a 6B657970 		.ascii	"keypress\000"
+ 2321      72657373 
+ 2321      00
+ 2322              	.LASF2:
+ 2323 0153 74553332 		.ascii	"tU32\000"
+ 2323      00
+ 2324              	.LASF28:
+ 2325 0158 636F6C6F 		.ascii	"color\000"
+ 2325      7200
+ 2326              	.LASF21:
+ 2327 015e 7043686F 		.ascii	"pChoice\000"
+ 2327      69636500 
+ 2328              	.LASF42:
+ 2329 0166 73637265 		.ascii	"screenGrid\000"
+ 2329      656E4772 
+ 2329      696400
+ 2330              	.LASF22:
+ 2331 0171 6267436F 		.ascii	"bgColor\000"
+ 2331      6C6F7200 
+ 2332              	.LASF31:
+ 2333 0179 73657475 		.ascii	"setupLevel\000"
+ 2333      704C6576 
+ 2333      656C00
+ 2334              	.LASF43:
+ 2335 0184 64697265 		.ascii	"direction\000"
+ 2335      6374696F 
+ARM GAS  /cygdrive/c/Users/Tomek/AppData/Local/Temp/cc169I6a.s 			page 50
 
 
- 2338 0173 676F746F 		.ascii	"gotoxy\000"
- 2338      787900
- 2339              	.LASF27:
- 2340 017a 744D656E 		.ascii	"tMenu\000"
- 2340      7500
- 2341              	.LASF0:
- 2342 0180 756E7369 		.ascii	"unsigned char\000"
- 2342      676E6564 
- 2342      20636861 
- 2342      7200
- 2343              	.LASF45:
- 2344 018e 474E5520 		.ascii	"GNU C 4.1.1\000"
- 2344      4320342E 
- 2344      312E3100 
- 2345              	.LASF36:
- 2346 019a 736E616B 		.ascii	"snakeLength\000"
- 2346      654C656E 
- 2346      67746800 
- 2347              	.LASF5:
- 2348 01a6 73686F72 		.ascii	"short int\000"
- 2348      7420696E 
- 2348      7400
- 2349              	.LASF15:
- 2350 01b0 784C656E 		.ascii	"xLen\000"
- 2350      00
- 2351              	.LASF40:
- 2352 01b5 66697273 		.ascii	"firstPress\000"
- 2352      74507265 
- 2352      737300
- 2353              	.LASF11:
- 2354 01c0 63686172 		.ascii	"char\000"
- 2354      00
- 2355              	.LASF6:
- 2356 01c5 74533332 		.ascii	"tS32\000"
- 2356      00
- 2357              	.LASF14:
- 2358 01ca 79506F73 		.ascii	"yPos\000"
- 2358      00
- 2359              	.LASF24:
- 2360 01cf 68656164 		.ascii	"headerColor\000"
- 2360      6572436F 
- 2360      6C6F7200 
- 2361              	.LASF46:
- 2362 01db 736E616B 		.ascii	"snake.c\000"
- 2362      652E6300 
- 2363              	.LASF48:
- 2364 01e3 736E616B 		.ascii	"snakeSegment\000"
- 2364      65536567 
- 2364      6D656E74 
- 2364      00
- 2365              	.LASF34:
- 2366 01f0 6D656E75 		.ascii	"menu\000"
- 2366      00
- 2367              	.LASF37:
- 2368 01f5 73706565 		.ascii	"speed\000"
- 2368      6400
- 2369              	.LASF13:
-ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s 			page 51
+ 2335      6E00
+ 2336              	.LASF44:
+ 2337 018e 736E616B 		.ascii	"snake\000"
+ 2337      6500
+ 2338              	.LASF29:
+ 2339 0194 676F746F 		.ascii	"gotoxy\000"
+ 2339      787900
+ 2340              	.LASF27:
+ 2341 019b 744D656E 		.ascii	"tMenu\000"
+ 2341      7500
+ 2342              	.LASF0:
+ 2343 01a1 756E7369 		.ascii	"unsigned char\000"
+ 2343      676E6564 
+ 2343      20636861 
+ 2343      7200
+ 2344              	.LASF45:
+ 2345 01af 474E5520 		.ascii	"GNU C 4.1.1\000"
+ 2345      4320342E 
+ 2345      312E3100 
+ 2346              	.LASF36:
+ 2347 01bb 736E616B 		.ascii	"snakeLength\000"
+ 2347      654C656E 
+ 2347      67746800 
+ 2348              	.LASF5:
+ 2349 01c7 73686F72 		.ascii	"short int\000"
+ 2349      7420696E 
+ 2349      7400
+ 2350              	.LASF15:
+ 2351 01d1 784C656E 		.ascii	"xLen\000"
+ 2351      00
+ 2352              	.LASF40:
+ 2353 01d6 66697273 		.ascii	"firstPress\000"
+ 2353      74507265 
+ 2353      737300
+ 2354              	.LASF11:
+ 2355 01e1 63686172 		.ascii	"char\000"
+ 2355      00
+ 2356              	.LASF6:
+ 2357 01e6 74533332 		.ascii	"tS32\000"
+ 2357      00
+ 2358              	.LASF14:
+ 2359 01eb 79506F73 		.ascii	"yPos\000"
+ 2359      00
+ 2360              	.LASF24:
+ 2361 01f0 68656164 		.ascii	"headerColor\000"
+ 2361      6572436F 
+ 2361      6C6F7200 
+ 2362              	.LASF46:
+ 2363 01fc 736E616B 		.ascii	"snake.c\000"
+ 2363      652E6300 
+ 2364              	.LASF48:
+ 2365 0204 736E616B 		.ascii	"snakeSegment\000"
+ 2365      65536567 
+ 2365      6D656E74 
+ 2365      00
+ 2366              	.LASF34:
+ 2367 0211 6D656E75 		.ascii	"menu\000"
+ARM GAS  /cygdrive/c/Users/Tomek/AppData/Local/Temp/cc169I6a.s 			page 51
 
 
- 2370 01fb 78506F73 		.ascii	"xPos\000"
- 2370      00
- 2371              	.LASF35:
- 2372 0200 73636F72 		.ascii	"score\000"
- 2372      6500
- 2373              	.LASF19:
- 2374 0206 70486561 		.ascii	"pHeaderText\000"
- 2374      64657254 
- 2374      65787400 
- 2375              		.ident	"GCC: (GNU) 4.1.1"
-ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s 			page 52
+ 2367      00
+ 2368              	.LASF37:
+ 2369 0216 73706565 		.ascii	"speed\000"
+ 2369      6400
+ 2370              	.LASF13:
+ 2371 021c 78506F73 		.ascii	"xPos\000"
+ 2371      00
+ 2372              	.LASF35:
+ 2373 0221 73636F72 		.ascii	"score\000"
+ 2373      6500
+ 2374              	.LASF19:
+ 2375 0227 70486561 		.ascii	"pHeaderText\000"
+ 2375      64657254 
+ 2375      65787400 
+ 2376              		.ident	"GCC: (GNU) 4.1.1"
+ARM GAS  /cygdrive/c/Users/Tomek/AppData/Local/Temp/cc169I6a.s 			page 52
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 snake.c
-/cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s:1      .text:00000000 $t
-/cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s:15     .text:00000000 addSegment
-/cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s:114    .text:00000084 $d
-/cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s:957    .data:00000000 direction
-/cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s:967    .bss:00000008 snakeLength
+/cygdrive/c/Users/Tomek/AppData/Local/Temp/cc169I6a.s:1      .text:00000000 $t
+/cygdrive/c/Users/Tomek/AppData/Local/Temp/cc169I6a.s:15     .text:00000000 addSegment
+/cygdrive/c/Users/Tomek/AppData/Local/Temp/cc169I6a.s:114    .text:00000084 $d
+/cygdrive/c/Users/Tomek/AppData/Local/Temp/cc169I6a.s:957    .data:00000000 direction
+/cygdrive/c/Users/Tomek/AppData/Local/Temp/cc169I6a.s:967    .bss:00000008 snakeLength
                             *COM*:00000320 snake
-/cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s:120    .text:00000090 $t
-/cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s:123    .text:00000090 gotoxy
-/cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s:171    .text:000000bc showScore
-/cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s:310    .text:00000188 $d
-/cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s:976    .bss:00000014 level
-/cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s:964    .bss:00000004 score
-/cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s:322    .text:00000198 $t
-/cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s:325    .text:00000198 setupLevel
-/cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s:546    .text:000002c0 $d
-/cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s:978    .bss:00000018 firstPress
-/cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s:980    .bss:00000019 screenGrid
-/cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s:973    .bss:00000010 obstacles
-/cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s:572    .text:000002e0 playSnake
-/cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s:569    .text:000002e0 $t
-/cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s:937    .text:000004ec $d
-/cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s:970    .bss:0000000c speed
-/cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5pNOeC.s:961    .bss:00000000 high_score
+/cygdrive/c/Users/Tomek/AppData/Local/Temp/cc169I6a.s:120    .text:00000090 $t
+/cygdrive/c/Users/Tomek/AppData/Local/Temp/cc169I6a.s:123    .text:00000090 gotoxy
+/cygdrive/c/Users/Tomek/AppData/Local/Temp/cc169I6a.s:171    .text:000000bc showScore
+/cygdrive/c/Users/Tomek/AppData/Local/Temp/cc169I6a.s:310    .text:00000188 $d
+/cygdrive/c/Users/Tomek/AppData/Local/Temp/cc169I6a.s:976    .bss:00000014 level
+/cygdrive/c/Users/Tomek/AppData/Local/Temp/cc169I6a.s:964    .bss:00000004 score
+/cygdrive/c/Users/Tomek/AppData/Local/Temp/cc169I6a.s:322    .text:00000198 $t
+/cygdrive/c/Users/Tomek/AppData/Local/Temp/cc169I6a.s:325    .text:00000198 setupLevel
+/cygdrive/c/Users/Tomek/AppData/Local/Temp/cc169I6a.s:546    .text:000002c0 $d
+/cygdrive/c/Users/Tomek/AppData/Local/Temp/cc169I6a.s:978    .bss:00000018 firstPress
+/cygdrive/c/Users/Tomek/AppData/Local/Temp/cc169I6a.s:980    .bss:00000019 screenGrid
+/cygdrive/c/Users/Tomek/AppData/Local/Temp/cc169I6a.s:973    .bss:00000010 obstacles
+/cygdrive/c/Users/Tomek/AppData/Local/Temp/cc169I6a.s:572    .text:000002e0 playSnake
+/cygdrive/c/Users/Tomek/AppData/Local/Temp/cc169I6a.s:569    .text:000002e0 $t
+/cygdrive/c/Users/Tomek/AppData/Local/Temp/cc169I6a.s:937    .text:000004ec $d
+/cygdrive/c/Users/Tomek/AppData/Local/Temp/cc169I6a.s:970    .bss:0000000c speed
+/cygdrive/c/Users/Tomek/AppData/Local/Temp/cc169I6a.s:961    .bss:00000000 high_score
                              .bss:00000000 $d
 
 UNDEFINED SYMBOLS

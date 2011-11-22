@@ -47,8 +47,11 @@ static tU8 proc1Stack[PROC1_STACK_SIZE];
 static tU8 initStack[INIT_STACK_SIZE];
 static tU8 pid1;
 
+static tU32 systemTimeMs;
+
 static tU8 contrast = 56;
 static tU8 cursor   = 0;
+static char buf[20];
 
 
 /*****************************************************************************
@@ -56,7 +59,7 @@ static tU8 cursor   = 0;
  ****************************************************************************/
 static void proc1(void* arg);
 static void initProc(void* arg);
-
+tU32 getSystemTime(void);
 
 /*****************************************************************************
  *
@@ -110,7 +113,7 @@ drawMenuCursor(tU8 cursor)
       case 1: lcdPuts("Instructions"); break;
       case 2: lcdPuts("Authors"); break;
       case 3: lcdPuts("Play Snake :)"); break;
-      case 4: lcdPuts("Reset"); break;
+      case 4: lcdPuts(""); break;
       default: break;
     }
   }
@@ -138,7 +141,19 @@ drawMenu(void)
   drawMenuCursor(cursor);
 }
 
+static void timer(void){
+	T0TCR=0x02;
+	T0PR=0x100;
+	//przeliczenie CORE_FREQ/PBST/1000-1;
+	T0TCR=0x01;
+}
 
+static char* read(void){
+	systemTimeMs=T0TC;
+    //T0PR=CORE_Freq/PBSD/1000-1;
+	sprintf(buf, "%d", systemTimeMs);
+	return buf;
+}
 /*****************************************************************************
  *
  * Description:
@@ -179,7 +194,7 @@ proc1(void* arg)
 
   //print menu
   drawMenu();
-
+  //timer();
   for(;;)
   {
     tU8 anyKey;
@@ -194,8 +209,8 @@ proc1(void* arg)
         switch(cursor)
         {
           case 0: initApp(); break;
-          case 1: instructionsInfo(); break;
-          case 2: authorsFooter(); break;
+          case 1: instructionsInfo(); lcdPuts(read()); break;
+          case 2: authorsFooter();timer(); break;
           case 3: playSnake(); break;
           case 4: getDownArrow(); break;
           default: break;

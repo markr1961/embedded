@@ -1,4 +1,4 @@
-ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5FrUAD.s 			page 1
+ARM GAS  /cygdrive/c/Users/Tomek/AppData/Local/Temp/ccOc4Haa.s 			page 1
 
 
    1              		.code	16
@@ -58,7 +58,7 @@ ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5FrUAD.s 			page 1
   33:key.c         ****  ****************************************************************************/
   34:key.c         **** static tU8 centerReleased = TRUE;
   35:key.c         **** static tU8 keyUpReleased = TRUE;
-ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5FrUAD.s 			page 2
+ARM GAS  /cygdrive/c/Users/Tomek/AppData/Local/Temp/ccOc4Haa.s 			page 2
 
 
   36:key.c         **** static tU8 keyDownReleased = TRUE;
@@ -118,7 +118,7 @@ ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5FrUAD.s 			page 1
   64:key.c         ****  *
   65:key.c         ****  * Description:
   66:key.c         ****  *    Function to check current (instantaneous) key state
-ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5FrUAD.s 			page 3
+ARM GAS  /cygdrive/c/Users/Tomek/AppData/Local/Temp/ccOc4Haa.s 			page 3
 
 
   67:key.c         ****  *
@@ -178,7 +178,7 @@ ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5FrUAD.s 			page 1
   73              		.loc 1 92 0
   74 0024 1020     		mov	r0, #16
   75 0026 4E4A     		ldr	r2, .L74
-ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5FrUAD.s 			page 4
+ARM GAS  /cygdrive/c/Users/Tomek/AppData/Local/Temp/ccOc4Haa.s 			page 4
 
 
   76 0028 0542     		tst	r5, r0
@@ -238,7 +238,7 @@ ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5FrUAD.s 			page 1
  108              		.loc 1 114 0
  109 0054 454B     		ldr	r3, .L74+12
  110 0056 1870     		strb	r0, [r3]
-ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5FrUAD.s 			page 5
+ARM GAS  /cygdrive/c/Users/Tomek/AppData/Local/Temp/ccOc4Haa.s 			page 5
 
 
  111              	.L58:
@@ -298,7 +298,7 @@ ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5FrUAD.s 			page 1
  144              		.loc 1 135 0
  145 0082 042B     		cmp	r3, #4
  146 0084 03D0     		beq	.L60
-ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5FrUAD.s 			page 6
+ARM GAS  /cygdrive/c/Users/Tomek/AppData/Local/Temp/ccOc4Haa.s 			page 6
 
 
  136:key.c         ****   	  {
@@ -358,7 +358,7 @@ ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5FrUAD.s 			page 1
  179 00ac 0023     		mov	r3, #0
  180 00ae 1370     		strb	r3, [r2]
  158:key.c         ****   		downKeyCnt = 0;
-ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5FrUAD.s 			page 7
+ARM GAS  /cygdrive/c/Users/Tomek/AppData/Local/Temp/ccOc4Haa.s 			page 7
 
 
  181              		.loc 1 158 0
@@ -418,7 +418,7 @@ ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5FrUAD.s 			page 1
  180:key.c         **** 
  181:key.c         ****   //check left key
  182:key.c         ****   if (readKeys & KEY_LEFT)
-ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5FrUAD.s 			page 8
+ARM GAS  /cygdrive/c/Users/Tomek/AppData/Local/Temp/ccOc4Haa.s 			page 8
 
 
  214              		.loc 1 182 0
@@ -478,7 +478,7 @@ ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5FrUAD.s 			page 1
  247 0104 184B     		ldr	r3, .L74+8
  248 0106 1870     		strb	r0, [r3]
  204:key.c         ****   		  activeKey2 = KEY_LEFT;
-ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5FrUAD.s 			page 9
+ARM GAS  /cygdrive/c/Users/Tomek/AppData/Local/Temp/ccOc4Haa.s 			page 9
 
 
  249              		.loc 1 204 0
@@ -538,7 +538,7 @@ ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5FrUAD.s 			page 1
  282              		.loc 1 225 0
  283 0136 042B     		cmp	r3, #4
  284 0138 03D0     		beq	.L69
-ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5FrUAD.s 			page 10
+ARM GAS  /cygdrive/c/Users/Tomek/AppData/Local/Temp/ccOc4Haa.s 			page 10
 
 
  226:key.c         ****   	  {
@@ -598,7 +598,7 @@ ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5FrUAD.s 			page 1
  321 0164 02000000 		.word	centerKeyCnt
  322 0168 00000000 		.word	activeKey
  323 016c 01000000 		.word	activeKey2
-ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5FrUAD.s 			page 11
+ARM GAS  /cygdrive/c/Users/Tomek/AppData/Local/Temp/ccOc4Haa.s 			page 11
 
 
  324 0170 01000000 		.word	keyUpReleased
@@ -658,7 +658,7 @@ ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5FrUAD.s 			page 1
  378 0004 FFFFFFFF 		.4byte	0xffffffff
  379 0008 01       		.byte	0x1
  380 0009 00       		.ascii	"\000"
-ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5FrUAD.s 			page 12
+ARM GAS  /cygdrive/c/Users/Tomek/AppData/Local/Temp/ccOc4Haa.s 			page 12
 
 
  381 000a 01       		.uleb128 0x1
@@ -718,7 +718,7 @@ ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5FrUAD.s 			page 1
  435 000f 90010000 		.4byte	.LFE4-.Ltext0
  436 0013 0200     		.2byte	0x2
  437 0015 7D       		.byte	0x7d
-ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5FrUAD.s 			page 13
+ARM GAS  /cygdrive/c/Users/Tomek/AppData/Local/Temp/ccOc4Haa.s 			page 13
 
 
  438 0016 0C       		.sleb128 12
@@ -744,33 +744,33 @@ ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5FrUAD.s 			page 1
  458 000c 00000000 		.4byte	.Ldebug_line0
  459 0010 90010000 		.4byte	.Letext0
  460 0014 00000000 		.4byte	.Ltext0
- 461 0018 FC000000 		.4byte	.LASF26
+ 461 0018 D9000000 		.4byte	.LASF26
  462 001c 01       		.byte	0x1
- 463 001d 3C000000 		.4byte	.LASF27
- 464 0021 00000000 		.4byte	.LASF28
+ 463 001d 19000000 		.4byte	.LASF27
+ 464 0021 15010000 		.4byte	.LASF28
  465 0025 02       		.uleb128 0x2
  466 0026 74553800 		.ascii	"tU8\000"
  467 002a 02       		.byte	0x2
  468 002b 47       		.byte	0x47
  469 002c 30000000 		.4byte	0x30
  470 0030 03       		.uleb128 0x3
- 471 0031 7B000000 		.4byte	.LASF0
+ 471 0031 58000000 		.4byte	.LASF0
  472 0035 01       		.byte	0x1
  473 0036 08       		.byte	0x8
  474 0037 03       		.uleb128 0x3
- 475 0038 9B000000 		.4byte	.LASF1
+ 475 0038 78000000 		.4byte	.LASF1
  476 003c 02       		.byte	0x2
  477 003d 07       		.byte	0x7
  478 003e 03       		.uleb128 0x3
- 479 003f D9000000 		.4byte	.LASF2
+ 479 003f B6000000 		.4byte	.LASF2
  480 0043 04       		.byte	0x4
  481 0044 07       		.byte	0x7
  482 0045 03       		.uleb128 0x3
- 483 0046 38010000 		.4byte	.LASF3
+ 483 0046 59010000 		.4byte	.LASF3
  484 004a 01       		.byte	0x1
  485 004b 06       		.byte	0x6
  486 004c 03       		.uleb128 0x3
- 487 004d 1A010000 		.4byte	.LASF4
+ 487 004d F7000000 		.4byte	.LASF4
  488 0051 02       		.byte	0x2
  489 0052 05       		.byte	0x5
  490 0053 04       		.uleb128 0x4
@@ -778,21 +778,21 @@ ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5FrUAD.s 			page 1
  492 0058 04       		.byte	0x4
  493 0059 05       		.byte	0x5
  494 005a 05       		.uleb128 0x5
-ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5FrUAD.s 			page 14
+ARM GAS  /cygdrive/c/Users/Tomek/AppData/Local/Temp/ccOc4Haa.s 			page 14
 
 
- 495 005b 44010000 		.4byte	.LASF5
+ 495 005b 65010000 		.4byte	.LASF5
  496 005f 02       		.byte	0x2
  497 0060 4D       		.byte	0x4d
  498 0061 30000000 		.4byte	0x30
  499 0065 03       		.uleb128 0x3
- 500 0066 89000000 		.4byte	.LASF6
+ 500 0066 66000000 		.4byte	.LASF6
  501 006a 04       		.byte	0x4
  502 006b 07       		.byte	0x7
  503 006c 06       		.uleb128 0x6
  504 006d 95000000 		.4byte	0x95
  505 0071 01       		.byte	0x1
- 506 0072 2F010000 		.4byte	.LASF7
+ 506 0072 0C010000 		.4byte	.LASF7
  507 0076 01       		.byte	0x1
  508 0077 39       		.byte	0x39
  509 0078 01       		.byte	0x1
@@ -802,7 +802,7 @@ ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5FrUAD.s 			page 1
  513 0085 01       		.byte	0x1
  514 0086 5D       		.byte	0x5d
  515 0087 07       		.uleb128 0x7
- 516 0088 59000000 		.4byte	.LASF9
+ 516 0088 36000000 		.4byte	.LASF9
  517 008c 01       		.byte	0x1
  518 008d 3A       		.byte	0x3a
  519 008e 25000000 		.4byte	0x25
@@ -811,7 +811,7 @@ ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5FrUAD.s 			page 1
  522 0094 00       		.byte	0x0
  523 0095 08       		.uleb128 0x8
  524 0096 01       		.byte	0x1
- 525 0097 4A010000 		.4byte	.LASF29
+ 525 0097 6B010000 		.4byte	.LASF29
  526 009b 01       		.byte	0x1
  527 009c 47       		.byte	0x47
  528 009d 01       		.byte	0x1
@@ -823,7 +823,7 @@ ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5FrUAD.s 			page 1
  534 00ac 09       		.uleb128 0x9
  535 00ad E0000000 		.4byte	0xe0
  536 00b1 01       		.byte	0x1
- 537 00b2 54010000 		.4byte	.LASF8
+ 537 00b2 75010000 		.4byte	.LASF8
  538 00b6 01       		.byte	0x1
  539 00b7 53       		.byte	0x53
  540 00b8 01       		.byte	0x1
@@ -831,14 +831,14 @@ ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5FrUAD.s 			page 1
  542 00bd 90010000 		.4byte	.LFE4
  543 00c1 00000000 		.4byte	.LLST2
  544 00c5 0A       		.uleb128 0xa
- 545 00c6 B8000000 		.4byte	.LASF10
+ 545 00c6 95000000 		.4byte	.LASF10
  546 00ca 01       		.byte	0x1
  547 00cb 54       		.byte	0x54
  548 00cc 5A000000 		.4byte	0x5a
  549 00d0 1F000000 		.4byte	.LLST3
  550 00d4 0B       		.uleb128 0xb
- 551 00d5 F3000000 		.4byte	.LASF11
-ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5FrUAD.s 			page 15
+ 551 00d5 D0000000 		.4byte	.LASF11
+ARM GAS  /cygdrive/c/Users/Tomek/AppData/Local/Temp/ccOc4Haa.s 			page 15
 
 
  552 00d9 01       		.byte	0x1
@@ -846,7 +846,7 @@ ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5FrUAD.s 			page 1
  554 00db 25000000 		.4byte	0x25
  555 00df 00       		.byte	0x0
  556 00e0 07       		.uleb128 0x7
- 557 00e1 6C000000 		.4byte	.LASF12
+ 557 00e1 49000000 		.4byte	.LASF12
  558 00e5 01       		.byte	0x1
  559 00e6 22       		.byte	0x22
  560 00e7 25000000 		.4byte	0x25
@@ -854,7 +854,7 @@ ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5FrUAD.s 			page 1
  562 00ec 03       		.byte	0x3
  563 00ed 00000000 		.4byte	centerReleased
  564 00f1 07       		.uleb128 0x7
- 565 00f2 CB000000 		.4byte	.LASF13
+ 565 00f2 A8000000 		.4byte	.LASF13
  566 00f6 01       		.byte	0x1
  567 00f7 23       		.byte	0x23
  568 00f8 25000000 		.4byte	0x25
@@ -862,7 +862,7 @@ ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5FrUAD.s 			page 1
  570 00fd 03       		.byte	0x3
  571 00fe 01000000 		.4byte	keyUpReleased
  572 0102 07       		.uleb128 0x7
- 573 0103 42000000 		.4byte	.LASF14
+ 573 0103 1F000000 		.4byte	.LASF14
  574 0107 01       		.byte	0x1
  575 0108 24       		.byte	0x24
  576 0109 25000000 		.4byte	0x25
@@ -870,7 +870,7 @@ ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5FrUAD.s 			page 1
  578 010e 03       		.byte	0x3
  579 010f 02000000 		.4byte	keyDownReleased
  580 0113 07       		.uleb128 0x7
- 581 0114 23000000 		.4byte	.LASF15
+ 581 0114 00000000 		.4byte	.LASF15
  582 0118 01       		.byte	0x1
  583 0119 25       		.byte	0x25
  584 011a 25000000 		.4byte	0x25
@@ -878,7 +878,7 @@ ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5FrUAD.s 			page 1
  586 011f 03       		.byte	0x3
  587 0120 03000000 		.4byte	keyLeftReleased
  588 0124 07       		.uleb128 0x7
- 589 0125 5E010000 		.4byte	.LASF16
+ 589 0125 7F010000 		.4byte	.LASF16
  590 0129 01       		.byte	0x1
  591 012a 26       		.byte	0x26
  592 012b 25000000 		.4byte	0x25
@@ -886,7 +886,7 @@ ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5FrUAD.s 			page 1
  594 0130 03       		.byte	0x3
  595 0131 04000000 		.4byte	keyRightReleased
  596 0135 07       		.uleb128 0x7
- 597 0136 E6000000 		.4byte	.LASF17
+ 597 0136 C3000000 		.4byte	.LASF17
  598 013a 01       		.byte	0x1
  599 013b 27       		.byte	0x27
  600 013c 25000000 		.4byte	0x25
@@ -894,18 +894,18 @@ ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5FrUAD.s 			page 1
  602 0141 03       		.byte	0x3
  603 0142 02000000 		.4byte	centerKeyCnt
  604 0146 07       		.uleb128 0x7
- 605 0147 33000000 		.4byte	.LASF18
+ 605 0147 10000000 		.4byte	.LASF18
  606 014b 01       		.byte	0x1
  607 014c 28       		.byte	0x28
  608 014d 25000000 		.4byte	0x25
-ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5FrUAD.s 			page 16
+ARM GAS  /cygdrive/c/Users/Tomek/AppData/Local/Temp/ccOc4Haa.s 			page 16
 
 
  609 0151 05       		.byte	0x5
  610 0152 03       		.byte	0x3
  611 0153 03000000 		.4byte	upKeyCnt
  612 0157 07       		.uleb128 0x7
- 613 0158 C0000000 		.4byte	.LASF19
+ 613 0158 9D000000 		.4byte	.LASF19
  614 015c 01       		.byte	0x1
  615 015d 29       		.byte	0x29
  616 015e 25000000 		.4byte	0x25
@@ -913,7 +913,7 @@ ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5FrUAD.s 			page 1
  618 0163 03       		.byte	0x3
  619 0164 04000000 		.4byte	downKeyCnt
  620 0168 07       		.uleb128 0x7
- 621 0169 24010000 		.4byte	.LASF20
+ 621 0169 01010000 		.4byte	.LASF20
  622 016d 01       		.byte	0x1
  623 016e 2A       		.byte	0x2a
  624 016f 25000000 		.4byte	0x25
@@ -921,7 +921,7 @@ ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5FrUAD.s 			page 1
  626 0174 03       		.byte	0x3
  627 0175 05000000 		.4byte	leftKeyCnt
  628 0179 07       		.uleb128 0x7
- 629 017a 60000000 		.4byte	.LASF21
+ 629 017a 3D000000 		.4byte	.LASF21
  630 017e 01       		.byte	0x1
  631 017f 2B       		.byte	0x2b
  632 0180 25000000 		.4byte	0x25
@@ -929,7 +929,7 @@ ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5FrUAD.s 			page 1
  634 0185 03       		.byte	0x3
  635 0186 06000000 		.4byte	rightKeyCnt
  636 018a 07       		.uleb128 0x7
- 637 018b AE000000 		.4byte	.LASF22
+ 637 018b 8B000000 		.4byte	.LASF22
  638 018f 01       		.byte	0x1
  639 0190 2D       		.byte	0x2d
  640 0191 9B010000 		.4byte	0x19b
@@ -939,7 +939,7 @@ ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5FrUAD.s 			page 1
  644 019b 0C       		.uleb128 0xc
  645 019c 25000000 		.4byte	0x25
  646 01a0 07       		.uleb128 0x7
- 647 01a1 0F010000 		.4byte	.LASF23
+ 647 01a1 EC000000 		.4byte	.LASF23
  648 01a5 01       		.byte	0x1
  649 01a6 2E       		.byte	0x2e
  650 01a7 9B010000 		.4byte	0x19b
@@ -947,7 +947,7 @@ ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5FrUAD.s 			page 1
  652 01ac 03       		.byte	0x3
  653 01ad 01000000 		.4byte	activeKey2
  654 01b1 0D       		.uleb128 0xd
- 655 01b2 08010000 		.4byte	.LASF24
+ 655 01b2 E5000000 		.4byte	.LASF24
  656 01b6 03       		.byte	0x3
  657 01b7 21       		.byte	0x21
  658 01b8 5A000000 		.4byte	0x5a
@@ -956,9 +956,9 @@ ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5FrUAD.s 			page 1
  661 01be 03       		.byte	0x3
  662 01bf 00000000 		.4byte	ver1_0
  663 01c3 0D       		.uleb128 0xd
- 664 01c4 52000000 		.4byte	.LASF25
+ 664 01c4 2F000000 		.4byte	.LASF25
  665 01c8 03       		.byte	0x3
-ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5FrUAD.s 			page 17
+ARM GAS  /cygdrive/c/Users/Tomek/AppData/Local/Temp/ccOc4Haa.s 			page 17
 
 
  666 01c9 22       		.byte	0x22
@@ -1018,7 +1018,7 @@ ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5FrUAD.s 			page 1
  720 002e 03       		.uleb128 0x3
  721 002f 08       		.uleb128 0x8
  722 0030 0B       		.uleb128 0xb
-ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5FrUAD.s 			page 18
+ARM GAS  /cygdrive/c/Users/Tomek/AppData/Local/Temp/ccOc4Haa.s 			page 18
 
 
  723 0031 0B       		.uleb128 0xb
@@ -1078,7 +1078,7 @@ ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5FrUAD.s 			page 1
  777 0067 02       		.uleb128 0x2
  778 0068 0A       		.uleb128 0xa
  779 0069 00       		.byte	0x0
-ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5FrUAD.s 			page 19
+ARM GAS  /cygdrive/c/Users/Tomek/AppData/Local/Temp/ccOc4Haa.s 			page 19
 
 
  780 006a 00       		.byte	0x0
@@ -1138,7 +1138,7 @@ ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5FrUAD.s 			page 1
  834 00a0 3B       		.uleb128 0x3b
  835 00a1 0B       		.uleb128 0xb
  836 00a2 49       		.uleb128 0x49
-ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5FrUAD.s 			page 20
+ARM GAS  /cygdrive/c/Users/Tomek/AppData/Local/Temp/ccOc4Haa.s 			page 20
 
 
  837 00a3 13       		.uleb128 0x13
@@ -1198,7 +1198,7 @@ ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5FrUAD.s 			page 1
  888      6B4B6579 
  888      3200
  889 0029 AC000000 		.4byte	0xac
-ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5FrUAD.s 			page 21
+ARM GAS  /cygdrive/c/Users/Tomek/AppData/Local/Temp/ccOc4Haa.s 			page 21
 
 
  890 002d 73616D70 		.ascii	"sampleKey\000"
@@ -1224,170 +1224,175 @@ ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5FrUAD.s 			page 1
  906 0018 00000000 		.4byte	0x0
  907 001c 00000000 		.4byte	0x0
  908              		.section	.debug_str,"MS",%progbits,1
- 909              	.LASF28:
- 910 0000 2F637967 		.ascii	"/cygdrive/c/eclipse/workspace/2138\000"
- 910      64726976 
- 910      652F632F 
- 910      65636C69 
- 910      7073652F 
- 911              	.LASF15:
- 912 0023 6B65794C 		.ascii	"keyLeftReleased\000"
- 912      65667452 
- 912      656C6561 
- 912      73656400 
- 913              	.LASF18:
- 914 0033 75704B65 		.ascii	"upKeyCnt\000"
- 914      79436E74 
- 914      00
- 915              	.LASF27:
- 916 003c 6B65792E 		.ascii	"key.c\000"
- 916      6300
- 917              	.LASF14:
- 918 0042 6B657944 		.ascii	"keyDownReleased\000"
- 918      6F776E52 
- 918      656C6561 
- 918      73656400 
- 919              	.LASF25:
- 920 0052 76657231 		.ascii	"ver1_1\000"
- 920      5F3100
- 921              	.LASF9:
- 922 0059 72657456 		.ascii	"retVal\000"
- 922      616C00
- 923              	.LASF21:
- 924 0060 72696768 		.ascii	"rightKeyCnt\000"
- 924      744B6579 
- 924      436E7400 
- 925              	.LASF12:
-ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5FrUAD.s 			page 22
+ 909              	.LASF15:
+ 910 0000 6B65794C 		.ascii	"keyLeftReleased\000"
+ 910      65667452 
+ 910      656C6561 
+ 910      73656400 
+ 911              	.LASF18:
+ 912 0010 75704B65 		.ascii	"upKeyCnt\000"
+ 912      79436E74 
+ 912      00
+ 913              	.LASF27:
+ 914 0019 6B65792E 		.ascii	"key.c\000"
+ 914      6300
+ 915              	.LASF14:
+ 916 001f 6B657944 		.ascii	"keyDownReleased\000"
+ 916      6F776E52 
+ 916      656C6561 
+ 916      73656400 
+ 917              	.LASF25:
+ 918 002f 76657231 		.ascii	"ver1_1\000"
+ 918      5F3100
+ 919              	.LASF9:
+ 920 0036 72657456 		.ascii	"retVal\000"
+ 920      616C00
+ 921              	.LASF21:
+ 922 003d 72696768 		.ascii	"rightKeyCnt\000"
+ 922      744B6579 
+ 922      436E7400 
+ 923              	.LASF12:
+ 924 0049 63656E74 		.ascii	"centerReleased\000"
+ 924      65725265 
+ 924      6C656173 
+ 924      656400
+ 925              	.LASF0:
+ 926 0058 756E7369 		.ascii	"unsigned char\000"
+ARM GAS  /cygdrive/c/Users/Tomek/AppData/Local/Temp/ccOc4Haa.s 			page 22
 
 
- 926 006c 63656E74 		.ascii	"centerReleased\000"
- 926      65725265 
- 926      6C656173 
- 926      656400
- 927              	.LASF0:
- 928 007b 756E7369 		.ascii	"unsigned char\000"
- 928      676E6564 
- 928      20636861 
- 928      7200
- 929              	.LASF6:
- 930 0089 6C6F6E67 		.ascii	"long unsigned int\000"
- 930      20756E73 
- 930      69676E65 
- 930      6420696E 
- 930      7400
- 931              	.LASF1:
- 932 009b 73686F72 		.ascii	"short unsigned int\000"
- 932      7420756E 
- 932      7369676E 
- 932      65642069 
- 932      6E7400
- 933              	.LASF22:
- 934 00ae 61637469 		.ascii	"activeKey\000"
- 934      76654B65 
- 934      7900
- 935              	.LASF10:
- 936 00b8 6E6F7468 		.ascii	"nothing\000"
- 936      696E6700 
- 937              	.LASF19:
- 938 00c0 646F776E 		.ascii	"downKeyCnt\000"
- 938      4B657943 
- 938      6E7400
- 939              	.LASF13:
- 940 00cb 6B657955 		.ascii	"keyUpReleased\000"
- 940      7052656C 
- 940      65617365 
- 940      6400
- 941              	.LASF2:
- 942 00d9 756E7369 		.ascii	"unsigned int\000"
- 942      676E6564 
- 942      20696E74 
+ 926      676E6564 
+ 926      20636861 
+ 926      7200
+ 927              	.LASF6:
+ 928 0066 6C6F6E67 		.ascii	"long unsigned int\000"
+ 928      20756E73 
+ 928      69676E65 
+ 928      6420696E 
+ 928      7400
+ 929              	.LASF1:
+ 930 0078 73686F72 		.ascii	"short unsigned int\000"
+ 930      7420756E 
+ 930      7369676E 
+ 930      65642069 
+ 930      6E7400
+ 931              	.LASF22:
+ 932 008b 61637469 		.ascii	"activeKey\000"
+ 932      76654B65 
+ 932      7900
+ 933              	.LASF10:
+ 934 0095 6E6F7468 		.ascii	"nothing\000"
+ 934      696E6700 
+ 935              	.LASF19:
+ 936 009d 646F776E 		.ascii	"downKeyCnt\000"
+ 936      4B657943 
+ 936      6E7400
+ 937              	.LASF13:
+ 938 00a8 6B657955 		.ascii	"keyUpReleased\000"
+ 938      7052656C 
+ 938      65617365 
+ 938      6400
+ 939              	.LASF2:
+ 940 00b6 756E7369 		.ascii	"unsigned int\000"
+ 940      676E6564 
+ 940      20696E74 
+ 940      00
+ 941              	.LASF17:
+ 942 00c3 63656E74 		.ascii	"centerKeyCnt\000"
+ 942      65724B65 
+ 942      79436E74 
  942      00
- 943              	.LASF17:
- 944 00e6 63656E74 		.ascii	"centerKeyCnt\000"
- 944      65724B65 
- 944      79436E74 
+ 943              	.LASF11:
+ 944 00d0 72656164 		.ascii	"readKeys\000"
+ 944      4B657973 
  944      00
- 945              	.LASF11:
- 946 00f3 72656164 		.ascii	"readKeys\000"
- 946      4B657973 
- 946      00
- 947              	.LASF26:
- 948 00fc 474E5520 		.ascii	"GNU C 4.1.1\000"
- 948      4320342E 
- 948      312E3100 
- 949              	.LASF24:
- 950 0108 76657231 		.ascii	"ver1_0\000"
-ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5FrUAD.s 			page 23
+ 945              	.LASF26:
+ 946 00d9 474E5520 		.ascii	"GNU C 4.1.1\000"
+ 946      4320342E 
+ 946      312E3100 
+ 947              	.LASF24:
+ 948 00e5 76657231 		.ascii	"ver1_0\000"
+ 948      5F3000
+ 949              	.LASF23:
+ 950 00ec 61637469 		.ascii	"activeKey2\000"
+ 950      76654B65 
+ 950      793200
+ 951              	.LASF4:
+ARM GAS  /cygdrive/c/Users/Tomek/AppData/Local/Temp/ccOc4Haa.s 			page 23
 
 
- 950      5F3000
- 951              	.LASF23:
- 952 010f 61637469 		.ascii	"activeKey2\000"
- 952      76654B65 
- 952      793200
- 953              	.LASF4:
- 954 011a 73686F72 		.ascii	"short int\000"
- 954      7420696E 
- 954      7400
- 955              	.LASF20:
- 956 0124 6C656674 		.ascii	"leftKeyCnt\000"
- 956      4B657943 
- 956      6E7400
- 957              	.LASF7:
- 958 012f 63686563 		.ascii	"checkKey\000"
- 958      6B4B6579 
- 958      00
- 959              	.LASF3:
- 960 0138 7369676E 		.ascii	"signed char\000"
- 960      65642063 
- 960      68617200 
- 961              	.LASF5:
- 962 0144 74426F6F 		.ascii	"tBool\000"
- 962      6C00
- 963              	.LASF29:
- 964 014a 63686563 		.ascii	"checkKey2\000"
- 964      6B4B6579 
- 964      3200
- 965              	.LASF8:
- 966 0154 73616D70 		.ascii	"sampleKey\000"
- 966      6C654B65 
- 966      7900
- 967              	.LASF16:
- 968 015e 6B657952 		.ascii	"keyRightReleased\000"
- 968      69676874 
- 968      52656C65 
- 968      61736564 
- 968      00
- 969              		.ident	"GCC: (GNU) 4.1.1"
-ARM GAS  /cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5FrUAD.s 			page 24
+ 952 00f7 73686F72 		.ascii	"short int\000"
+ 952      7420696E 
+ 952      7400
+ 953              	.LASF20:
+ 954 0101 6C656674 		.ascii	"leftKeyCnt\000"
+ 954      4B657943 
+ 954      6E7400
+ 955              	.LASF7:
+ 956 010c 63686563 		.ascii	"checkKey\000"
+ 956      6B4B6579 
+ 956      00
+ 957              	.LASF28:
+ 958 0115 2F637967 		.ascii	"/cygdrive/c/Users/Tomek/Embedded Systems/Repozytori"
+ 958      64726976 
+ 958      652F632F 
+ 958      55736572 
+ 958      732F546F 
+ 959 0148 756D2F65 		.ascii	"um/embedded/2138\000"
+ 959      6D626564 
+ 959      6465642F 
+ 959      32313338 
+ 959      00
+ 960              	.LASF3:
+ 961 0159 7369676E 		.ascii	"signed char\000"
+ 961      65642063 
+ 961      68617200 
+ 962              	.LASF5:
+ 963 0165 74426F6F 		.ascii	"tBool\000"
+ 963      6C00
+ 964              	.LASF29:
+ 965 016b 63686563 		.ascii	"checkKey2\000"
+ 965      6B4B6579 
+ 965      3200
+ 966              	.LASF8:
+ 967 0175 73616D70 		.ascii	"sampleKey\000"
+ 967      6C654B65 
+ 967      7900
+ 968              	.LASF16:
+ 969 017f 6B657952 		.ascii	"keyRightReleased\000"
+ 969      69676874 
+ 969      52656C65 
+ 969      61736564 
+ 969      00
+ 970              		.ident	"GCC: (GNU) 4.1.1"
+ARM GAS  /cygdrive/c/Users/Tomek/AppData/Local/Temp/ccOc4Haa.s 			page 24
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 key.c
-/cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5FrUAD.s:1      .text:00000000 $t
-/cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5FrUAD.s:16     .text:00000000 checkKey
-/cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5FrUAD.s:35     .text:0000000c $d
-/cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5FrUAD.s:340    .bss:00000000 activeKey
-/cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5FrUAD.s:43     .text:00000010 checkKey2
-/cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5FrUAD.s:40     .text:00000010 $t
-/cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5FrUAD.s:57     .text:00000018 $d
-/cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5FrUAD.s:342    .bss:00000001 activeKey2
-/cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5FrUAD.s:65     .text:0000001c sampleKey
-/cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5FrUAD.s:62     .text:0000001c $t
-/cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5FrUAD.s:320    .text:00000160 $d
-/cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5FrUAD.s:337    .data:00000000 centerReleased
-/cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5FrUAD.s:362    .bss:00000002 centerKeyCnt
-/cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5FrUAD.s:347    .data:00000001 keyUpReleased
-/cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5FrUAD.s:364    .bss:00000003 upKeyCnt
-/cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5FrUAD.s:351    .data:00000002 keyDownReleased
-/cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5FrUAD.s:366    .bss:00000004 downKeyCnt
-/cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5FrUAD.s:355    .data:00000003 keyLeftReleased
-/cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5FrUAD.s:368    .bss:00000005 leftKeyCnt
-/cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5FrUAD.s:359    .data:00000004 keyRightReleased
-/cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5FrUAD.s:370    .bss:00000006 rightKeyCnt
+/cygdrive/c/Users/Tomek/AppData/Local/Temp/ccOc4Haa.s:1      .text:00000000 $t
+/cygdrive/c/Users/Tomek/AppData/Local/Temp/ccOc4Haa.s:16     .text:00000000 checkKey
+/cygdrive/c/Users/Tomek/AppData/Local/Temp/ccOc4Haa.s:35     .text:0000000c $d
+/cygdrive/c/Users/Tomek/AppData/Local/Temp/ccOc4Haa.s:340    .bss:00000000 activeKey
+/cygdrive/c/Users/Tomek/AppData/Local/Temp/ccOc4Haa.s:43     .text:00000010 checkKey2
+/cygdrive/c/Users/Tomek/AppData/Local/Temp/ccOc4Haa.s:40     .text:00000010 $t
+/cygdrive/c/Users/Tomek/AppData/Local/Temp/ccOc4Haa.s:57     .text:00000018 $d
+/cygdrive/c/Users/Tomek/AppData/Local/Temp/ccOc4Haa.s:342    .bss:00000001 activeKey2
+/cygdrive/c/Users/Tomek/AppData/Local/Temp/ccOc4Haa.s:65     .text:0000001c sampleKey
+/cygdrive/c/Users/Tomek/AppData/Local/Temp/ccOc4Haa.s:62     .text:0000001c $t
+/cygdrive/c/Users/Tomek/AppData/Local/Temp/ccOc4Haa.s:320    .text:00000160 $d
+/cygdrive/c/Users/Tomek/AppData/Local/Temp/ccOc4Haa.s:337    .data:00000000 centerReleased
+/cygdrive/c/Users/Tomek/AppData/Local/Temp/ccOc4Haa.s:362    .bss:00000002 centerKeyCnt
+/cygdrive/c/Users/Tomek/AppData/Local/Temp/ccOc4Haa.s:347    .data:00000001 keyUpReleased
+/cygdrive/c/Users/Tomek/AppData/Local/Temp/ccOc4Haa.s:364    .bss:00000003 upKeyCnt
+/cygdrive/c/Users/Tomek/AppData/Local/Temp/ccOc4Haa.s:351    .data:00000002 keyDownReleased
+/cygdrive/c/Users/Tomek/AppData/Local/Temp/ccOc4Haa.s:366    .bss:00000004 downKeyCnt
+/cygdrive/c/Users/Tomek/AppData/Local/Temp/ccOc4Haa.s:355    .data:00000003 keyLeftReleased
+/cygdrive/c/Users/Tomek/AppData/Local/Temp/ccOc4Haa.s:368    .bss:00000005 leftKeyCnt
+/cygdrive/c/Users/Tomek/AppData/Local/Temp/ccOc4Haa.s:359    .data:00000004 keyRightReleased
+/cygdrive/c/Users/Tomek/AppData/Local/Temp/ccOc4Haa.s:370    .bss:00000006 rightKeyCnt
                              .bss:00000000 $d
-/cygdrive/c/Users/Zbyszko/AppData/Local/Temp/cc5FrUAD.s:344    .bss:00000002 $d
+/cygdrive/c/Users/Tomek/AppData/Local/Temp/ccOc4Haa.s:344    .bss:00000002 $d
                             *COM*:00000001 ver1_0
                             *COM*:00000001 ver1_1
 
