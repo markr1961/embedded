@@ -12,5 +12,6 @@ void getRightArrow(void);
 void getLeftArrow(void);
 void getUpArrow(void);
 void getDownArrow(void);
+void drawArrow(tU8 i);
 
 #endif /* ARROW_H_ */

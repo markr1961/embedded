@@ -46,6 +46,7 @@
  *    Methods displaying proper arrow icon
  *
  ****************************************************************************/
+
 void getUpArrow(void){
 	lcdIcon(20,20,90,93, _ArrowUp[2], _ArrowUp[3], &_ArrowUp[4]);
 }
@@ -60,4 +61,13 @@ void getRightArrow(void){
 
 void getLeftArrow(void){
 	lcdIcon(20,20,90,93,_ArrowLeft[2], _ArrowLeft[3], &_ArrowLeft[4]);
+}
+
+void drawArrow(tU8 i){
+	switch(i){
+		case 0: getRightArrow(); break;
+		case 1: getLeftArrow(); break;
+		case 2: getUpArrow(); break;
+		case 3: getDownArrow(); break;		
+	}
 }

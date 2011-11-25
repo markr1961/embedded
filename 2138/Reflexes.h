@@ -7,6 +7,10 @@
 
 #ifndef REFLEXES_H_
 #define REFLEXES_H_
+static void timer(void);
+static char* read(void);
+static tU8 rand(void);
+static char* getrand(void);
 
 void initApp(void);
 void authorsFooter(void);

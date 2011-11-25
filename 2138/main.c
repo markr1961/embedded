@@ -110,11 +110,9 @@ drawMenuCursor(tU8 cursor)
 
     switch(row)
     {
-      case 0: lcdPuts("Start Test"); break;
+      case 0: lcdPuts("Start Game"); break;
       case 1: lcdPuts("Instructions"); break;
       case 2: lcdPuts("Authors"); break;
-      case 3: lcdPuts("Play Snake :)"); break;
-      case 4: lcdPuts(""); break;
       default: break;
     }
   }
@@ -142,28 +140,6 @@ drawMenu(void)
   drawMenuCursor(cursor);
 }
 
-static void timer(void){
-	T1TCR=0x02;
-	T1MCR=0x0;
-	T1PR=CORE_FREQ/PBSD/1000-1;
-	T1TCR=0x01;
-}
-
-static char* read(void){
-	systemTimeMs=T1TC;
-	sprintf(buf, "%d", systemTimeMs);
-	return buf;
-}
-
-static tU32 rand(void){
-	a=T0TC%4;
-	return a;
-}
-
-static char* getrand(void){
-	sprintf(buf, "%d", rand());
-	return buf;
-}
 /*****************************************************************************
  *
  * Description:
@@ -221,8 +197,6 @@ proc1(void* arg)
           case 0: initApp(); break;
           case 1: instructionsInfo(); lcdPuts(read()); break;
           case 2: authorsFooter();timer(); break;
-          case 3: lcdPuts(getrand()); break;
-          case 4: getDownArrow(); break;
           default: break;
         }
         drawMenu();
