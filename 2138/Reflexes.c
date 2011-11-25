@@ -105,24 +105,64 @@ void initApp(void){
 	// }
 	tU32 gameTime=0;
 	tU8 i,j;
+
+	tU8 pressKey;
+
+
 	for (i=0 ; i<6 ; i++){
 		lcdClrscr();
 		timer();
 		tU8 random=rand();
 		tU8 move;
 		drawArrow(random);
+
+		reading_loop:
 		for ( ; ;){
-			if(pressKey == KEY_LEFT) move=LEFT; break ;
-			else if(pressKey == KEY_UP) move=UP ; break ; 
-			else if(pressKey == KEY_DOWN) move=DOWN ; break ;
-			else if(pressKey == KEY_RIGHT) move=RIGHT ; break ;
+			setLED(LED_RED,FALSE);
+			setLED(LED_GREEN,FALSE);
+
+			pressKey = checkKey();
+			if(pressKey == KEY_LEFT) {
+				move=LEFT_MOVE;
+				break;
+			}
+			else if(pressKey == KEY_UP) {
+				move=UP_MOVE;
+				break;
+			}
+			else if(pressKey == KEY_DOWN) {
+				move=DOWN_MOVE;
+				break;
+			}
+			else if(pressKey == KEY_RIGHT) {
+				move=RIGHT_MOVE;
+				break;
+			}
 		}
 		if(move==random){
+			setLED(LED_GREEN,TRUE);
 			gameTime=gameTime+read();
 			getrand();
+		}else{
+			setBuzzer(TRUE);
+			setLED(LED_RED,TRUE);
+
+			osSleep(20);
+			setBuzzer(FALSE);
+
+
+			goto reading_loop;
 		}
 	}
-	lcdPuts(sprintf(buf, "%d", gameTime));
+
+	setLED(LED_GREEN,FALSE);
+
+	lcdClrscr();
+	lcdGotoxy(48,1);
+	lcdColor(0x00,0xe0);
+	lcdPuts(read());
+	osSleep(1000);
+
 }
 
 void authorsFooter(void){

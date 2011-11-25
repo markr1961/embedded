@@ -196,7 +196,7 @@ proc1(void* arg)
         {
           case 0: initApp(); break;
           case 1: instructionsInfo(); lcdPuts(read()); break;
-          case 2: authorsFooter();timer(); break;
+          case 2: authorsFooter(); break;
           default: break;
         }
         drawMenu();
