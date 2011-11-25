@@ -21,6 +21,9 @@
 #include "lcd.h"
 #include "key.h"
 #include "Arrow.h"
+#include "hw.h"
+#include "bt.h"
+#include "uart.h"
 
 /******************************************************************************
  * Typedefs and defines
@@ -30,6 +33,9 @@
 /*****************************************************************************
  * Local variables
  ****************************************************************************/
+static tU32 systemTimeMs;
+static tU32 a;
+static char buf[20];
 
 
 /*****************************************************************************
@@ -68,6 +74,11 @@ static char* getrand(void){
 	return buf;
 }
 
+#define LEFT_MOVE 1
+#define RIGHT_MOVE 0
+#define UP_MOVE 2
+#define DOWN_MOVE 3
+
 void initApp(void){
 
 	//   lcdColor(0,0);
@@ -92,15 +103,26 @@ void initApp(void){
 	// 	else if(pressKey == KEY_RIGHT) getRightArrow();
 	//     }
 	// }
-	
+	tU32 gameTime=0;
 	tU8 i,j;
 	for (i=0 ; i<6 ; i++){
+		lcdClrscr();
 		timer();
 		tU8 random=rand();
+		tU8 move;
 		drawArrow(random);
-		osSleep(10);
-		read();
+		for ( ; ;){
+			if(pressKey == KEY_LEFT) move=LEFT; break ;
+			else if(pressKey == KEY_UP) move=UP ; break ; 
+			else if(pressKey == KEY_DOWN) move=DOWN ; break ;
+			else if(pressKey == KEY_RIGHT) move=RIGHT ; break ;
+		}
+		if(move==random){
+			gameTime=gameTime+read();
+			getrand();
+		}
 	}
+	lcdPuts(sprintf(buf, "%d", gameTime));
 }
 
 void authorsFooter(void){
