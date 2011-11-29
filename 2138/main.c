@@ -21,8 +21,6 @@
 #include "lcd.h"
 #include "key.h"
 #include "uart.h"
-#include "snake.h"
-#include "bt.h"
 #include "hw.h"
 #include "Arrow.h"
 #include "Reflexes.h"
@@ -113,6 +111,7 @@ drawMenuCursor(tU8 cursor)
       case 0: lcdPuts("Start Game"); break;
       case 1: lcdPuts("Instructions"); break;
       case 2: lcdPuts("Authors"); break;
+      case 3: lcdPuts("High Scores"); break;
       default: break;
     }
   }
@@ -136,7 +135,7 @@ drawMenu(void)
 
   lcdGotoxy(48,1);
   lcdColor(0x6d,0);
-  lcdPuts("REFLEX 1.0");
+  lcdPuts("REFLEX");
   drawMenuCursor(cursor);
 }
 
@@ -195,8 +194,9 @@ proc1(void* arg)
         switch(cursor)
         {
           case 0: initApp(); break;
-          case 1: instructionsInfo(); lcdPuts(read()); break;
+          case 1: instructionsInfo(); break;
           case 2: authorsFooter(); break;
+          case 3: highScores(); break;
           default: break;
         }
         drawMenu();
@@ -208,14 +208,14 @@ proc1(void* arg)
         if (cursor > 0)
           cursor--;
         else
-          cursor = 4;
+          cursor = 3;
         drawMenuCursor(cursor);
       }
 
       //move cursor down
       else if (anyKey == KEY_DOWN)
       {
-        if (cursor < 4)
+        if (cursor < 3)
           cursor++;
         else
           cursor = 0;
@@ -280,7 +280,7 @@ initProc(void* arg)
   osCreateProcess(proc1, proc1Stack, PROC1_STACK_SIZE, &pid1, 3, NULL, &error);
   osStartProcess(pid1, &error);
 
-  initBtProc();
+  //initBtProc();
 
   osDeleteProcess();
 }

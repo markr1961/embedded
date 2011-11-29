@@ -1,7 +1,7 @@
 /******************************************************************************
  *
  * Copyright:
- *    (C) 2011 Zbyszko Natkañski
+ *    (C) 2011
  *
  * File:
  *    Reflexes.c
@@ -22,7 +22,7 @@
 #include "key.h"
 #include "Arrow.h"
 #include "hw.h"
-#include "bt.h"
+//#include "bt.h"
 #include "uart.h"
 
 /******************************************************************************
@@ -36,6 +36,8 @@
 static tU32 systemTimeMs;
 static tU32 a;
 static char buf[20];
+static char result[10];
+static tU32 gameTime=0;
 
 
 /*****************************************************************************
@@ -58,20 +60,21 @@ static void timer(void){
 	T1TCR=0x01;
 }
 
-static char* read(void){
+static tU32 getTime(void){
 	systemTimeMs=T1TC;
-	sprintf(buf, "%d", systemTimeMs);
-	return buf;
+	return systemTimeMs;
 }
 
-static tU8 rand(void){
+static tU32 rand(void){
 	a=T0TC%4;
 	return a;
 }
 
-static char* getrand(void){
-	sprintf(buf, "%d", rand());
-	return buf;
+
+static char* showResults(){
+	sprintf(result,"%d",gameTime/5);
+	return result;
+
 }
 
 #define LEFT_MOVE 1
@@ -103,9 +106,9 @@ void initApp(void){
 	// 	else if(pressKey == KEY_RIGHT) getRightArrow();
 	//     }
 	// }
-	tU32 gameTime=0;
-	tU8 i,j;
 
+	tU8 i;
+	gameTime=0;
 	tU8 pressKey;
 
 
@@ -141,8 +144,9 @@ void initApp(void){
 		}
 		if(move==random){
 			setLED(LED_GREEN,TRUE);
-			gameTime=gameTime+read();
-			getrand();
+			gameTime=gameTime+getTime();
+			//lcdPuts(showResults());
+			//getrand();
 		}else{
 			setBuzzer(TRUE);
 			setLED(LED_RED,TRUE);
@@ -158,17 +162,84 @@ void initApp(void){
 	setLED(LED_GREEN,FALSE);
 
 	lcdClrscr();
-	lcdGotoxy(48,1);
+	lcdGotoxy(20,1);
 	lcdColor(0x00,0xe0);
-	lcdPuts(read());
-	osSleep(1000);
+	lcdPuts("Your Score:");
+	lcdGotoxy(48,20);
+	lcdPuts(showResults());
+
+	lcdGotoxy(80,20);
+	lcdPuts("ms");
+
+	//if(pressKey == KEY_CENTER) break;
+	//lcdPuts(read());
+	osSleep(500);
 
 }
 
 void authorsFooter(void){
+	lcdClrscr();
 
+	tU8 pressKey;
+
+	for(;;){
+		pressKey = checkKey();
+		lcdGotoxy(2,1);
+		lcdColor(0x00,0xe0);
+		lcdPuts("Maciej Wilkowski");
+
+		lcdGotoxy(2,20);
+		lcdPuts("Szymon Rachanski");
+
+		lcdGotoxy(2,40);
+		lcdPuts("Tomasz Debski");
+
+		lcdGotoxy(2,60);
+		lcdPuts("Zbyszko Natkanski");
+
+		if(pressKey == KEY_CENTER) break;
+	}
 }
 
 void instructionsInfo(void){
+	lcdClrscr();
+	tU8 pressKey;
 
+	for(;;){
+		pressKey = checkKey();
+
+		lcdGotoxy(5,5);
+		lcdColor(0x00,0xe0);
+		lcdPuts("Instructions:");
+		lcdGotoxy(5, 25);
+		lcdPuts("Press proper");
+		lcdGotoxy(5, 45);
+		lcdPuts("joy direction");
+		lcdGotoxy(5, 65);
+		lcdPuts("when you see");
+		lcdGotoxy(5, 85);
+		lcdPuts("arrow on screen.");
+
+
+
+
+		if(pressKey == KEY_CENTER) break;
+	}
+}
+
+
+void highScores(void){
+	lcdClrscr();
+
+	tU8 pressKey;
+
+	for(;;){
+		pressKey = checkKey();
+
+		lcdPuts("Sending...");
+		//Here, should be sent a data with highest score...
+		uart1SendChars("Hello World!\r\n", 12);
+
+		if(pressKey == KEY_CENTER) break;
+	}
 }

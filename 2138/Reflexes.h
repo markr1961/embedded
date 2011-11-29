@@ -15,5 +15,6 @@ static char* getrand(void);
 void initApp(void);
 void authorsFooter(void);
 void instructionsInfo(void);
+void highScores(void);
 
 #endif /* REFLEXES_H_ */
