@@ -22,13 +22,15 @@
 #include "key.h"
 #include "Arrow.h"
 #include "hw.h"
-//#include "bt.h"
 #include "uart.h"
 
 /******************************************************************************
  * Typedefs and defines
  *****************************************************************************/
-
+#define LEFT_MOVE 1
+#define RIGHT_MOVE 0
+#define UP_MOVE 2
+#define DOWN_MOVE 3
 
 /*****************************************************************************
  * Local variables
@@ -48,11 +50,10 @@ static tU32 gameTime=0;
 /*****************************************************************************
  *
  * Description:
- *    Check if current place for figure is valid
+ *    Method resets and initialized Timer, the value is prescaled for obtaing
+ *    the time in miliseconds.
  *
  ****************************************************************************/
-
-
 static void timer(void){
 	T1TCR=0x02;
 	T1MCR=0x0;
@@ -60,30 +61,53 @@ static void timer(void){
 	T1TCR=0x01;
 }
 
+/*****************************************************************************
+ *
+ * Description:
+ *    Method resets and initialized Timer, the value is prescaled for obtaing
+ *    the time in miliseconds.
+ *
+ ****************************************************************************/
 static tU32 getTime(void){
 	systemTimeMs=T1TC;
 	return systemTimeMs;
 }
 
+/*****************************************************************************
+ *
+ * Description:
+ *    Very "complex" methods used to randomize the number of arrow to send
+ *    on display.
+ *
+ ****************************************************************************/
 static tU32 rand(void){
 	a=T0TC%4;
 	return a;
 }
 
-
+/*****************************************************************************
+ *
+ * Description:
+ *    Method which converts the time from tU32 value into char, use in order
+ *    to display the user result on screen.
+ *
+ ****************************************************************************/
 static char* showResults(){
 	sprintf(result,"%d",gameTime/5);
 	return result;
 
 }
-
-#define LEFT_MOVE 1
-#define RIGHT_MOVE 0
-#define UP_MOVE 2
-#define DOWN_MOVE 3
-
+/*****************************************************************************
+ *
+ * Description:
+ *    Main and the most important method for handling the reflex application.
+ *
+ ****************************************************************************/
 void initApp(void){
 
+	/*
+	 * Commented code below presents implemented functionalities up to midterm
+	 */
 	//   lcdColor(0,0);
 	//   lcdClrscr();
 	// 
@@ -167,16 +191,18 @@ void initApp(void){
 	lcdPuts("Your Score:");
 	lcdGotoxy(48,20);
 	lcdPuts(showResults());
-
 	lcdGotoxy(80,20);
 	lcdPuts("ms");
 
-	//if(pressKey == KEY_CENTER) break;
-	//lcdPuts(read());
 	osSleep(500);
 
 }
-
+/*****************************************************************************
+ *
+ * Description:
+ *    Method showing the author footer
+ *
+ ****************************************************************************/
 void authorsFooter(void){
 	lcdClrscr();
 
@@ -201,6 +227,12 @@ void authorsFooter(void){
 	}
 }
 
+/*****************************************************************************
+ *
+ * Description:
+ *    Method displays application instruction for user
+ *
+ ****************************************************************************/
 void instructionsInfo(void){
 	lcdClrscr();
 	tU8 pressKey;
@@ -227,7 +259,12 @@ void instructionsInfo(void){
 	}
 }
 
-
+/*****************************************************************************
+ *
+ * Description:
+ *    Method tries to send the message via uart. (unfinished functionality)
+ *
+ ****************************************************************************/
 void highScores(void){
 	lcdClrscr();
 
@@ -238,7 +275,8 @@ void highScores(void){
 
 		lcdPuts("Sending...");
 		//Here, should be sent a data with highest score...
-		uart1SendChars("Hello World!\r\n", 12);
+		//uart1SendChars("Hello World!\r\n", 12);
+		uart1SendChar(showResults());
 
 		if(pressKey == KEY_CENTER) break;
 	}
